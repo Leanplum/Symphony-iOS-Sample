@@ -183,6 +183,7 @@
 				B4F52DBD237B31E200578C16 /* Sources */,
 				B4F52DBE237B31E200578C16 /* Frameworks */,
 				B4F52DBF237B31E200578C16 /* Resources */,
+				03A479F1755D16F1AD6EF35A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -302,6 +303,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		03A479F1755D16F1AD6EF35A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Leanplum/Leanplum.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Leanplum.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7FE6B48D4DCE62A9DCBA1005 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
