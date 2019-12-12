@@ -3,12 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42077D3CA098ABAD2CDBA7EA /* Pods_Symphony_iOS_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F7ACF62F6D67CA85972B10 /* Pods_Symphony_iOS_Sample.framework */; };
-		8DB8807454F5250A35441685 /* Pods_Symphony_iOS_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 806DE1904B8832FA1E9E3551 /* Pods_Symphony_iOS_SampleTests.framework */; };
+		72015161ADDFAA7F6820CA18 /* Pods_Symphony_iOS_Sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6601258E82D919419D1EB31 /* Pods_Symphony_iOS_Sample.framework */; };
+		831FDE1B2DBC62FCE4F846E0 /* Pods_Symphony_iOS_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA75B09138285AFD37B4CB1 /* Pods_Symphony_iOS_SampleUITests.framework */; };
 		B4F52DC5237B31E200578C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F52DC4237B31E200578C16 /* AppDelegate.swift */; };
 		B4F52DC7237B31E200578C16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F52DC6237B31E200578C16 /* SceneDelegate.swift */; };
 		B4F52DC9237B31E200578C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F52DC8237B31E200578C16 /* ViewController.swift */; };
@@ -18,7 +18,7 @@
 		B4F52DD4237B31E400578C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4F52DD2237B31E400578C16 /* LaunchScreen.storyboard */; };
 		B4F52DDF237B31E400578C16 /* Symphony_iOS_SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F52DDE237B31E400578C16 /* Symphony_iOS_SampleTests.swift */; };
 		B4F52DEA237B31E400578C16 /* Symphony_iOS_SampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F52DE9237B31E400578C16 /* Symphony_iOS_SampleUITests.swift */; };
-		D10B63A10F3C86B2A279BCA4 /* Pods_Symphony_iOS_SampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6664AFE4CF3077B33EFDA814 /* Pods_Symphony_iOS_SampleUITests.framework */; };
+		E1E37E0E0B3924CD80705A1C /* Pods_Symphony_iOS_SampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CF2CD616A26F5769049DCE9 /* Pods_Symphony_iOS_SampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		31F7ACF62F6D67CA85972B10 /* Pods_Symphony_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Symphony_iOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6664AFE4CF3077B33EFDA814 /* Pods_Symphony_iOS_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Symphony_iOS_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		76D8BD58B372299AA30F90AA /* Pods-Symphony-iOS-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		806DE1904B8832FA1E9E3551 /* Pods_Symphony_iOS_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Symphony_iOS_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A311AC87904F6543704920F9 /* Pods-Symphony-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		14B8D1BA966F5D36614295D6 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		22CC027B3B3C6F00152EC702 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2D5CC8023F02E5926088BC54 /* Pods-Symphony-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-Sample.debug.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		3CF2CD616A26F5769049DCE9 /* Pods_Symphony_iOS_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Symphony_iOS_SampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610DF00AFA79A537B140A47B /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7BA75B09138285AFD37B4CB1 /* Pods_Symphony_iOS_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Symphony_iOS_SampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22245404F39D8184CA57054 /* Pods-Symphony-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-Sample.release.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
 		B4F52DC1237B31E200578C16 /* Symphony-iOS-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Symphony-iOS-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F52DC4237B31E200578C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4F52DC6237B31E200578C16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +61,8 @@
 		B4F52DE5237B31E400578C16 /* Symphony-iOS-SampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Symphony-iOS-SampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F52DE9237B31E400578C16 /* Symphony_iOS_SampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symphony_iOS_SampleUITests.swift; sourceTree = "<group>"; };
 		B4F52DEB237B31E400578C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C339B40116F2D68DA116A79B /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleUITests.release.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		CA12D654D00085FF1F895F07 /* Pods-Symphony-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-Sample.release.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		CC41DB850D6E7C42720279D3 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleTests.debug.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D1CB53D5FA7B4516665C80C8 /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B5DCE690BB3580D4956E4F67 /* Pods-Symphony-iOS-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Symphony-iOS-SampleTests.release.xcconfig"; path = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C6601258E82D919419D1EB31 /* Pods_Symphony_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Symphony_iOS_Sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42077D3CA098ABAD2CDBA7EA /* Pods_Symphony_iOS_Sample.framework in Frameworks */,
+				72015161ADDFAA7F6820CA18 /* Pods_Symphony_iOS_Sample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DB8807454F5250A35441685 /* Pods_Symphony_iOS_SampleTests.framework in Frameworks */,
+				E1E37E0E0B3924CD80705A1C /* Pods_Symphony_iOS_SampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,19 +86,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D10B63A10F3C86B2A279BCA4 /* Pods_Symphony_iOS_SampleUITests.framework in Frameworks */,
+				831FDE1B2DBC62FCE4F846E0 /* Pods_Symphony_iOS_SampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27EBF1B5F5C290AE8D88EBA5 /* Frameworks */ = {
+		501FFFF9BF1554DF34E2EAFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				31F7ACF62F6D67CA85972B10 /* Pods_Symphony_iOS_Sample.framework */,
-				806DE1904B8832FA1E9E3551 /* Pods_Symphony_iOS_SampleTests.framework */,
-				6664AFE4CF3077B33EFDA814 /* Pods_Symphony_iOS_SampleUITests.framework */,
+				C6601258E82D919419D1EB31 /* Pods_Symphony_iOS_Sample.framework */,
+				3CF2CD616A26F5769049DCE9 /* Pods_Symphony_iOS_SampleTests.framework */,
+				7BA75B09138285AFD37B4CB1 /* Pods_Symphony_iOS_SampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,14 +106,13 @@
 		7DB9AA9C608DE9DA1988FC66 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A311AC87904F6543704920F9 /* Pods-Symphony-iOS-Sample.debug.xcconfig */,
-				CA12D654D00085FF1F895F07 /* Pods-Symphony-iOS-Sample.release.xcconfig */,
-				CC41DB850D6E7C42720279D3 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */,
-				76D8BD58B372299AA30F90AA /* Pods-Symphony-iOS-SampleTests.release.xcconfig */,
-				D1CB53D5FA7B4516665C80C8 /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */,
-				C339B40116F2D68DA116A79B /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */,
+				2D5CC8023F02E5926088BC54 /* Pods-Symphony-iOS-Sample.debug.xcconfig */,
+				B22245404F39D8184CA57054 /* Pods-Symphony-iOS-Sample.release.xcconfig */,
+				14B8D1BA966F5D36614295D6 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */,
+				B5DCE690BB3580D4956E4F67 /* Pods-Symphony-iOS-SampleTests.release.xcconfig */,
+				610DF00AFA79A537B140A47B /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */,
+				22CC027B3B3C6F00152EC702 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -125,7 +124,7 @@
 				B4F52DE8237B31E400578C16 /* Symphony-iOS-SampleUITests */,
 				B4F52DC2237B31E200578C16 /* Products */,
 				7DB9AA9C608DE9DA1988FC66 /* Pods */,
-				27EBF1B5F5C290AE8D88EBA5 /* Frameworks */,
+				501FFFF9BF1554DF34E2EAFE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,11 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F52DEE237B31E400578C16 /* Build configuration list for PBXNativeTarget "Symphony-iOS-Sample" */;
 			buildPhases = (
-				B75F25F50A4353A9BA765E4C /* [CP] Check Pods Manifest.lock */,
+				C01C257E1B4CFB2778AD1DDD /* [CP] Check Pods Manifest.lock */,
 				B4F52DBD237B31E200578C16 /* Sources */,
 				B4F52DBE237B31E200578C16 /* Frameworks */,
 				B4F52DBF237B31E200578C16 /* Resources */,
-				03A479F1755D16F1AD6EF35A /* [CP] Embed Pods Frameworks */,
+				94062D7BBD85DA01AFC6688E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -198,7 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F52DF1237B31E400578C16 /* Build configuration list for PBXNativeTarget "Symphony-iOS-SampleTests" */;
 			buildPhases = (
-				7FE6B48D4DCE62A9DCBA1005 /* [CP] Check Pods Manifest.lock */,
+				78B3D568291333AB3A8718F6 /* [CP] Check Pods Manifest.lock */,
 				B4F52DD6237B31E400578C16 /* Sources */,
 				B4F52DD7237B31E400578C16 /* Frameworks */,
 				B4F52DD8237B31E400578C16 /* Resources */,
@@ -217,7 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B4F52DF4237B31E400578C16 /* Build configuration list for PBXNativeTarget "Symphony-iOS-SampleUITests" */;
 			buildPhases = (
-				C8A9EC12648C291CBCCA18D5 /* [CP] Check Pods Manifest.lock */,
+				3B40724FC279BAB675930FF2 /* [CP] Check Pods Manifest.lock */,
 				B4F52DE1237B31E400578C16 /* Sources */,
 				B4F52DE2237B31E400578C16 /* Frameworks */,
 				B4F52DE3237B31E400578C16 /* Resources */,
@@ -303,7 +302,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03A479F1755D16F1AD6EF35A /* [CP] Embed Pods Frameworks */ = {
+		3B40724FC279BAB675930FF2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -311,21 +310,21 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Leanplum/Leanplum.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Leanplum.framework",
+				"$(DERIVED_FILE_DIR)/Pods-Symphony-iOS-SampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7FE6B48D4DCE62A9DCBA1005 /* [CP] Check Pods Manifest.lock */ = {
+		78B3D568291333AB3A8718F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +346,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B75F25F50A4353A9BA765E4C /* [CP] Check Pods Manifest.lock */ = {
+		94062D7BBD85DA01AFC6688E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C01C257E1B4CFB2778AD1DDD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,28 +379,6 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-Symphony-iOS-Sample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C8A9EC12648C291CBCCA18D5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Symphony-iOS-SampleUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -572,7 +566,7 @@
 		};
 		B4F52DEF237B31E400578C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A311AC87904F6543704920F9 /* Pods-Symphony-iOS-Sample.debug.xcconfig */;
+			baseConfigurationReference = 2D5CC8023F02E5926088BC54 /* Pods-Symphony-iOS-Sample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,6 +575,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "-D DEBUG";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.symphony.ios.sample.Symphony-iOS-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -590,7 +586,7 @@
 		};
 		B4F52DF0237B31E400578C16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA12D654D00085FF1F895F07 /* Pods-Symphony-iOS-Sample.release.xcconfig */;
+			baseConfigurationReference = B22245404F39D8184CA57054 /* Pods-Symphony-iOS-Sample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -599,6 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.symphony.ios.sample.Symphony-iOS-Sample";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -608,7 +605,7 @@
 		};
 		B4F52DF2237B31E400578C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC41DB850D6E7C42720279D3 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */;
+			baseConfigurationReference = 14B8D1BA966F5D36614295D6 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,7 +627,7 @@
 		};
 		B4F52DF3237B31E400578C16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76D8BD58B372299AA30F90AA /* Pods-Symphony-iOS-SampleTests.release.xcconfig */;
+			baseConfigurationReference = B5DCE690BB3580D4956E4F67 /* Pods-Symphony-iOS-SampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -652,7 +649,7 @@
 		};
 		B4F52DF5237B31E400578C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1CB53D5FA7B4516665C80C8 /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 610DF00AFA79A537B140A47B /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -672,7 +669,7 @@
 		};
 		B4F52DF6237B31E400578C16 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C339B40116F2D68DA116A79B /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */;
+			baseConfigurationReference = 22CC027B3B3C6F00152EC702 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

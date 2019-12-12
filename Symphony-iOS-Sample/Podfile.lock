@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 6358114230f073fb7510e6795a9590bff875e9a1
+PODS:
+  - Leanplum (0.0.1)
 
-COCOAPODS: 1.6.0.beta.2
+DEPENDENCIES:
+  - Leanplum (from `../../Symphony-iOS`)
+
+EXTERNAL SOURCES:
+  Leanplum:
+    :path: "../../Symphony-iOS"
+
+SPEC CHECKSUMS:
+  Leanplum: 31af5b77107b369cc3005f6f2289a8d6270b7b4b
+
+PODFILE CHECKSUM: b1e224ebcbb95712f6e1e591b2d2eaa96d95a02b
+
+COCOAPODS: 1.8.4

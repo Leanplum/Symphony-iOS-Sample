@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Leanplum
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //Leanplum.setDeviceId("123")
+       // Leanplum.setAppId("YOUR_APP_ID",
+      //    withDevelopmentKey:"YOUR_DEVELOPMENT_KEY")
         return true
     }
 
