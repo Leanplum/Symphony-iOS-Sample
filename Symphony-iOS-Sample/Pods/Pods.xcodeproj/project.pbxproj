@@ -7,72 +7,404 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0267B2F6744A0E19D51A39631C24D19C /* Pods-Symphony-iOS-SampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14E939177038C7411423278E713B3D08 /* Pods-Symphony-iOS-SampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04919D5A779C7C90EBEFE19F481D80D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		08171B813E066903461B091545AFF180 /* Pods-Symphony-iOS-SampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CEDC62F3A426284FEA5A201B4F47AC8 /* Pods-Symphony-iOS-SampleUITests-dummy.m */; };
-		20E6BAE3D0247DB59208551962E2CD66 /* Pods-Symphony-iOS-SampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2152AD297F58D4CBA869C6A1C4A398C /* Pods-Symphony-iOS-SampleTests-dummy.m */; };
-		267FF5C347A54EA342C561C3B78F9CFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		26A751C59707CE62C9489DCA34A0CEC2 /* Pods-Symphony-iOS-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B6F92EA9ED9E9517AF5D4D4B760811 /* Pods-Symphony-iOS-Sample-dummy.m */; };
-		CB46AD3D60BA335C5B99F7445C803629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		CDE3B7B1A2C97882F58A9C2420C5DDF6 /* Pods-Symphony-iOS-SampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CC765269758A3490578676FFBEF3CE8A /* Pods-Symphony-iOS-SampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9C2AE07302D3F973AA464E6651E37EE /* Pods-Symphony-iOS-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC633CAEA83227C248E7B04F1291880 /* Pods-Symphony-iOS-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0267B2F6744A0E19D51A39631C24D19C /* Pods-Symphony-iOS-SampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B00B1C85811AE50B627399E43A8716 /* Pods-Symphony-iOS-SampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04919D5A779C7C90EBEFE19F481D80D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E06905464D7CCAFDE25B274B1D2DD /* Foundation.framework */; };
+		04F8A1ABC7988532BC5C7CF69A2F44EC /* LPPushAskToAskKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B84263B582F4BB6F9FBA7D58744672D /* LPPushAskToAskKinds.m */; };
+		05AE8DB1A57DE2705598C7DA745ABE12 /* LPPurpleAcceptButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CDEC4CCEB55A5A50A4CF7D9DAEDF2EE /* LPPurpleAcceptButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08171B813E066903461B091545AFF180 /* Pods-Symphony-iOS-SampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A3F97D53B1C2FD504DF0ED20A0B869 /* Pods-Symphony-iOS-SampleUITests-dummy.m */; };
+		0A28A25D9B3D5E1A23CD42558C0807E4 /* LPIndigoMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4BA31E1B34D0D2ACC6DE82DACD8739 /* LPIndigoMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AC21E55D05A96C1FD46069C6E538F12 /* LPTentacledChild.h in Headers */ = {isa = PBXBuildFile; fileRef = CAA9278FAAA1A7AE7C43BD5242499410 /* LPTentacledChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AEF75A86D4CF221A1B97F954FA83B2D /* LPCunningChild.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F00BDB78C5D6D8974B2F4AA5A9CF5E /* LPCunningChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B8124728798023FCE0D0F960E03B7DE /* LPCunningChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 923ACA7C59548C12B71499EAC546CFA6 /* LPCunningChild.m */; };
+		0FCCADFCE598BCB6100B80E9DB62BB3D /* LPCenterPopupKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = CD9A1656FF71ED6D07B51FA09D5A644D /* LPCenterPopupKinds.m */; };
+		129628282DCD7B3ED77E6E60831BED34 /* LPResponseVars.h in Headers */ = {isa = PBXBuildFile; fileRef = A45CD296EBC754077F24C341C22618D3 /* LPResponseVars.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12DFBCC7D2894B6A16EB45BF29B6DA9A /* LPMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 808C4690AD3A8111514B68F1817E094F /* LPMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1314711AEFB3B12A8D5D46BF0C4D3144 /* LPFluffyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3589947D0221BACAA37232591EC915B6 /* LPFluffyMessage.m */; };
+		14148D630754179D49692C68C12306FA /* Leanplum-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 207B4FC8D08516D53E45B2C9F7EB788C /* Leanplum-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1460FF9F2BF608547651571F54FFF868 /* LPRegisterForPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C2B969DD842097F5E2600659773CF4DD /* LPRegisterForPush.m */; };
+		159A74866BE992C3E195B4B2A4363404 /* LPValuesDismissAction.h in Headers */ = {isa = PBXBuildFile; fileRef = ACBED22DD4533E94F6FCD25B5E9603B5 /* LPValuesDismissAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FFD25C16F82FDE50E52D50C2154819 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3D96F5C2F4E89D94CF83ABED4C5943 /* Security.framework */; };
+		16CACCD99D87310C61DA6EC7DF5FEF05 /* LPAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 641611E97254460F52BA2F5543A3D9A1 /* LPAlert.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18CD1F4B52359F70B26FF520DC754194 /* LPFine2PNGClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A12B8DCE96950D0F013013EE384B2B3C /* LPFine2PNGClass.m */; };
+		1F7F63BA834E1E2713F3E9CAF34AACF0 /* LPOpenURL.m in Sources */ = {isa = PBXBuildFile; fileRef = D2563DFA4FAEAC65FDF2F11132326E82 /* LPOpenURL.m */; };
+		204D69C6D5102C3028FBBF524E1FF3A0 /* LPMagentaChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 154976CFF1240EDE0E66F488E400D4BE /* LPMagentaChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20E6BAE3D0247DB59208551962E2CD66 /* Pods-Symphony-iOS-SampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 338E9F3149445E91DA954AD9D31A50EE /* Pods-Symphony-iOS-SampleTests-dummy.m */; };
+		20F1121C9016D3587A830A75341E7452 /* LPTentacledMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = E48DBCA7412EB84B9A680C2AF8B30D56 /* LPTentacledMessage.m */; };
+		2123A91F8D0A9757D09282F9F82EDA7F /* LPInterstitialValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 060689BB12A15AB5B9D93030A43A456D /* LPInterstitialValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2125CEC74DDFB9EBB133F7041A0279DA /* LPFluffyCancelAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A31CC6B4DACEE20B9BB18E640CC765F /* LPFluffyCancelAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		226EB3BBC5183CDB385D4112F481C120 /* LPPushAskToAskValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDD73C6B85183A18EF3D1B39F62CFB4 /* LPPushAskToAskValues.m */; };
+		231A67581F3C3068375B2CCCAC005504 /* LPFileAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 67FC1233342E530466B419DB01223CCF /* LPFileAttribute.m */; };
+		23A542D552D2A1090B8AB396492CCAC3 /* LPConfirmValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A08D06397E63F4E9701EB5591B822B /* LPConfirmValues.m */; };
+		25503F4C4774DD122191D09BBF9B7F18 /* LPAlertKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = FDDC8FAC91CFC4A8EB7CB54815ECD83D /* LPAlertKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25A3195C0EFA7819968A8028953910D6 /* LPStartResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BD940C833378F43EF86043A2FB0C8EA /* LPStartResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26AE174149FD2897BC22C7C1865B53BB /* LPWebInterstitialValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 1574B7CDDC09C8212C2C1362F3BAFC68 /* LPWebInterstitialValues.m */; };
+		283B082378526984A5317F55569F6A29 /* LPCenterPopupKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = B6D5DD223A9125A6ECA8869262EFF987 /* LPCenterPopupKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		296610B7EC753B200AF00D7D2F51EF0B /* LPNoneClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A6DF86B8CB8771653513E0ED75C2445E /* LPNoneClass.m */; };
+		2A2E477F944A637648E764D3BA042585 /* LPWebInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = B97064ABFCDAC2D1928243A81B749C9A /* LPWebInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E7073228FDBC3EE708426D50E135EFA /* LPFriskyChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BD678BB8E76F717B3AC7D579D20C7DD /* LPFriskyChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F8A42B8396DE48975669DF45912AFA0 /* LPPurpleAcceptAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F306F00EE0C67A59421BD53D4A5367 /* LPPurpleAcceptAction.m */; };
+		32C34BC27E755BE32EBFAD4695B50E5E /* LPStickyMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E5CB61C394D8AC0A338F8F94F21D58 /* LPStickyMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33307920424EBA5F1D5917D7E91EEAD5 /* LPFine2PNG.m in Sources */ = {isa = PBXBuildFile; fileRef = 37746B659BD502B90CF99B79CD1879BF /* LPFine2PNG.m */; };
+		33F3D398ACECE15600479CDA92073108 /* LPPurpleTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A68BD0021CD6C9B6D9C77820FF91220 /* LPPurpleTitle.m */; };
+		375A4BA1657A377A99B6043B73AD3A07 /* LPIndigoMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CE220685BD2140A25AE52F01D146AD /* LPIndigoMessage.m */; };
+		383B7EAF6984B06F0FEDAA1766429C0C /* LPCenterPopupValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 058317A34458109D2BEC34BB5A44842B /* LPCenterPopupValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A6A152B41255580FF02EF153A26E79A /* LPNone.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B010F034095BB63F24FC0BB1701B3B7 /* LPNone.m */; };
+		3BA6D3DA7B56CFA1B9F0D0BA063A1811 /* LPDownloadJPEG.h in Headers */ = {isa = PBXBuildFile; fileRef = E533F24BC0732EE4F95A86E5C90F1C29 /* LPDownloadJPEG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D1EB4DB8DEEC7240A11CCC91367A97C /* LPConfirmKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DF6B1C6F72DA7488F9160131614084 /* LPConfirmKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D96E6023552211262F59F63E4004523 /* LPAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC1A5D5E3DE90552C0C741C2409CC4F /* LPAlert.m */; };
+		3E053619079F999C88A3A647B9C52ACE /* LPPushAskToAsk.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BAECC290BAAA89B09C305539ECB7DEA /* LPPushAskToAsk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410E1DE76D421DE45F291E2CB75AD3C8 /* LPFluffyDismissAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1908C5B6FC4CB7371FDDB1C247C6191B /* LPFluffyDismissAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42D8289FDF5DB7CB119EC733693B57DD /* LPInterstitialValues.m in Sources */ = {isa = PBXBuildFile; fileRef = B22E3CC61C6D56F158CD681BE45EFE95 /* LPInterstitialValues.m */; };
+		4540E72F239652BD07F435E198A053EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E06905464D7CCAFDE25B274B1D2DD /* Foundation.framework */; };
+		4732EDFFF4A3E117C8C85C92C349B078 /* LPInterstitialKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C401442038AA80FC416D3A32ABC74D7 /* LPInterstitialKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0C7F88836C8997569D16E54EC256CB /* LPInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 693323632384E4BA226AF0C2C6535365 /* LPInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D18018B7A9CBF8D5E3BDDAFA50B1E32 /* LPTentacledAcceptButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DD50976948823B4D8CAC8C967BCE56 /* LPTentacledAcceptButton.m */; };
+		54674BBBEB5FCE448E5B1A9EEB3AC3AD /* LPPurpleDismissAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 13953303DA65C5901C149AAC85E31052 /* LPPurpleDismissAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54AAC4D5B8BEB583EE53943D1EC82B98 /* LPCenterPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = DD88532A39938ABCC12EA153169B6072 /* LPCenterPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		552B7264F7427F13297612D1789A261D /* LPIndecentChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCF6A5EDF9E725C60DE8B8CCBE65FF5 /* LPIndecentChild.m */; };
+		5546DA13966FFDBE3F8C28C3E4B3B30D /* LPRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D0BE246E79FDBEC94538B3FA6C6CDE9 /* LPRegion.m */; };
+		565A1F27FFA8FE7177890AA672B6E3CA /* LPStickyTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCF7A8877996BD777E178148AEF8F59 /* LPStickyTitle.m */; };
+		59F7739853798A16C1A1384D601A193B /* LPTentacledAcceptButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 89223646716238D9E52231E58B048739 /* LPTentacledAcceptButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EAE5724809096E0CDB453FF51B5496F /* LPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = AB55F0D1C547C7F4886FBD212B2C2B85 /* LPMessage.m */; };
+		5FBF54C4C1DFCCD37E44C081A806AEC7 /* LPHilariousChild.m in Sources */ = {isa = PBXBuildFile; fileRef = E1974B8122D79C09CE6BC1F988AFA069 /* LPHilariousChild.m */; };
+		61A88D6B630EC563218A0624E687E414 /* LPPurpleDismissAction.m in Sources */ = {isa = PBXBuildFile; fileRef = F027E646593516CBCAAE7603E92F8CF7 /* LPPurpleDismissAction.m */; };
+		63A6C4BDC2BCA354BC0858F9E0BC7505 /* LPInterstitialKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD1677CEAF602FB5FE299B43B9F018B /* LPInterstitialKinds.m */; };
+		63D1AAF28C47A17767C544226BAEB5F1 /* LPStickyMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 526A9237724A24FBB54EDC464E9AE65C /* LPStickyMessage.m */; };
+		63F1A452D6A55396861DB8F78AECD356 /* LPMagentaChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BA4E747728C2614ECD5202CAAB446A /* LPMagentaChild.m */; };
+		64D5C3A53906C63103E209A4D2990991 /* LPDownloadJPEG.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3FABBA7D9BAD3B0FE7AD2F150475E5 /* LPDownloadJPEG.m */; };
+		64DC9270CBF3CBAF7D786CB708E2D31C /* LPWebInterstitialValues.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F7A8F644D65404F71BE2E96CF76C80 /* LPWebInterstitialValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		657BCCAED8E10BD86524CD85424D1F1F /* LPNoneClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AB00DB7449DCA0F65B550C3B97D03C /* LPNoneClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65EC9898672ACAEA87575AD52375E304 /* LPPurpleTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = A371EB859FED3D504C23036ECDEBEEDD /* LPPurpleTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66917FB7DB59AF74A8841172C0109B8F /* LPOpenURL.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB612A0C3ED5447FFA868B7DB2C8F5F /* LPOpenURL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66C18579E58FD45C63D704B3B84FD7DB /* LPOpenURLKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = 74498839F111ACB3C74702692B08776B /* LPOpenURLKinds.m */; };
+		686B3369179603330D2578AEB661105E /* LPFluffyAcceptAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 517DBE81A2FE5B588BF8C175EA53C720 /* LPFluffyAcceptAction.m */; };
+		6B62848E3EF05C19D433CD6B244AFED8 /* LPCenterPopupValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA6D46041E68D745DC9A01CC07CFB4D /* LPCenterPopupValues.m */; };
+		6C015C22837EA485ABA809E60B0E6BA4 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF2CB73A98A13E22D7C6EF8EE31A5C3 /* CFNetwork.framework */; };
+		6DA2D715B802AFE5A30003B4377FD36B /* LPRegisterForPush.h in Headers */ = {isa = PBXBuildFile; fileRef = 4629B2FA67BD4EB403D54200A0BEE94B /* LPRegisterForPush.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7087C8371B0EFC4E9B6F648D2E6E35E3 /* LPAmbitiousChild.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC24986656B7F51C97B6E28CC4FF388 /* LPAmbitiousChild.m */; };
+		71A24BF7D13BFCFF19683A842A982098 /* LPMischievousChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5D523C8522115002498F50654FE2CF /* LPMischievousChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72D78F469010F7EAC1D78934751CE447 /* LPHilariousChild.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FD9FAB06CB9001E822D4B2708F943B /* LPHilariousChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		775D75566F092DF67D318B4400E29783 /* LPVarsAcceptButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A6DF9E65671198FA58DCED94301F89 /* LPVarsAcceptButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78A08230A29B6B0B2904AC7FC1AC8055 /* LPDownloadJPEGClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 1461890089F0D7429B26ADAB32D5279C /* LPDownloadJPEGClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BE8B7431599CBCD2367D703C7FD5471 /* LPFluffyTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = B462D3454C26607B6D8DB3799345B714 /* LPFluffyTitle.m */; };
+		80BFAE9D83E69464EEF8E12D8842586A /* LPOpenURLValues.h in Headers */ = {isa = PBXBuildFile; fileRef = AAFBAD8FAE0C3B618D9D6E73F5E86121 /* LPOpenURLValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82356CC36D0AAEF37DC96E92A6E6A3B4 /* LPBraggodociousChild.m in Sources */ = {isa = PBXBuildFile; fileRef = D12972C2EFBA2750653A705A6835CE5A /* LPBraggodociousChild.m */; };
+		82F705C6DB1E17955E6F1C53AD08C87D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 714B50A34F41B0BBF551D75B3B1C6953 /* SystemConfiguration.framework */; };
+		84A4D18DF693FC481292786F598F5997 /* LPPurpleChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC0124F1AF6E685F834ADCDC451F9E8 /* LPPurpleChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85FB615B683C520CA36F0420D775E38A /* LPDownloadJPEGClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 368D61E9E3751611E379B3141EF524E4 /* LPDownloadJPEGClass.m */; };
+		87D7AAF9BB69A3D88DE79AE52AECA93D /* LPOpenURLValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B57A5EC032D28753A96E626320287 /* LPOpenURLValues.m */; };
+		8909632D9D8D9361DAEC521986BBEAC0 /* LPPurpleCancelAction.h in Headers */ = {isa = PBXBuildFile; fileRef = F2265D19F62AA6E25728138C62642675 /* LPPurpleCancelAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BFC8F5514BBAA3B1C3324F833240195 /* LPFlufflyAcceptButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E4D5622722F880E7D53DB59EBB1360 /* LPFlufflyAcceptButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E0437F7EEA5067C51A1BB39737E2CCF /* LPPurpleAcceptButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 829BCE64A3678ACFE2386AB5CDA9B9AF /* LPPurpleAcceptButton.m */; };
+		8E056009DAE2A7818C98C78F2323E648 /* LPResponseVars.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C1B672B31465FFA073C12FFC7445C9 /* LPResponseVars.m */; };
+		90320F4291EC9A53CD60836C983357DA /* LPFluffyTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 9798B452A2A3BAA8F43768B4F62B951F /* LPFluffyTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93825480F6C34FEC628FA09BEBBCB2E0 /* LPStickyChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 28FEECBB98283A5555F2EAC735CCF84C /* LPStickyChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9517718EEEF31F3A91E306790292AF94 /* LPRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = A65B3063840E7C53DB3C77219DC34F6D /* LPRegion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		979A0D09EA8C832FBD937ADBAC38CCA6 /* LPMischievousChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 151F344A9C59E799202AA79BD6149646 /* LPMischievousChild.m */; };
+		9858F4AFD2A0A15867CFBF8A96F8AEE9 /* LPStartResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F97F039398921DCDA1C17BD371F5D57 /* LPStartResponse.m */; };
+		98F9E1583EB9CE367329C3470395C724 /* LPVariant.h in Headers */ = {isa = PBXBuildFile; fileRef = 0858532F2668FF69F21FA4DC099C8F01 /* LPVariant.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AB612E924EBC1C07417C8512ACCD224 /* LPPushAskToAskKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = D913434742F08E27CC443294061892D7 /* LPPushAskToAskKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AD276492D3F3B7E844B7130C668FD26 /* LPFluffyChild.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C8968C7657FF0B6132D7C1A15A0C54 /* LPFluffyChild.m */; };
+		9B0F6D534AE0D0F44FF94B54E6B89C41 /* LPAlertValues.h in Headers */ = {isa = PBXBuildFile; fileRef = A740F539EBAC15F934819BB0BFCB92DE /* LPAlertValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A19AAB37DA3E118E6481EA2C4E117E7F /* LPWebInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = F60BAD484330C1FA7449FD47900C96BC /* LPWebInterstitial.m */; };
+		A22AED8D0B6DD515CDDF83A50AE6828E /* LPFlufflyAcceptButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B54ED8E6B0254A87FE3DC9184DA33DE3 /* LPFlufflyAcceptButton.m */; };
+		A41758AFD5E609CC3F7E8C4593AD5BAB /* LPWebInterstitialKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F19606F832DA8498C2BE2C2E11F1DF /* LPWebInterstitialKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48F28DC11D41C65F52D1A2C4764D162 /* LPPushAskToAskValues.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BCC5FC721F784B5C69DBC4726966B0 /* LPPushAskToAskValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A554FCCD4EA46293C2028ADA8A2EC944 /* LPVarsAcceptButton.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFCC8B3A181E278694DF782E4F62FFB /* LPVarsAcceptButton.m */; };
+		A694A7A26B5DD7B591B22E025588C855 /* LPAmbitiousChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 314F514EF62BDA82A2031278744AC61E /* LPAmbitiousChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A801A8AF441C9F9692E65A3DA1EDC482 /* LPStickyTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = E8FD2A719EB8FF8F09FE8573E0C14B27 /* LPStickyTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A96B10C3151FDBC9E2B7EC3E1E78FB64 /* LPFluffyChild.h in Headers */ = {isa = PBXBuildFile; fileRef = C5AE8C14539AF9261F048A07241F2509 /* LPFluffyChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9E24B7A3F0C10FD00CE5ED570B442C1 /* LPConfirm.m in Sources */ = {isa = PBXBuildFile; fileRef = 368ACA1AFE14CAC5D9AA9C8D7BC26DC7 /* LPConfirm.m */; };
+		A9F712B5F975CECD5B345627562D766C /* LPConfirmValues.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6F0125134AE1C8AB363949882582CB /* LPConfirmValues.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA3B17E513BEAC3C51C1CA97143E9A9F /* LPBraggodociousChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BFDF695A60669DDA12B58862EA6C436 /* LPBraggodociousChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB0966B9D28CD308957C235C41180F62 /* LPTentacledTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D82E9909FAA745617B995EBB3251A8 /* LPTentacledTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADA20A5E36BCDC15697BDB9508BEFB67 /* LPPurpleMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE700CF7C476E58027C4BC07348C9BBC /* LPPurpleMessage.m */; };
+		B1316AA0DDAA15EE1CFC62602167DF97 /* LPConfirm.h in Headers */ = {isa = PBXBuildFile; fileRef = 316547748B190964386631720797AD61 /* LPConfirm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15D33DE1A7BF3A257576DDE93E2B4BE /* LPOpenURLKinds.h in Headers */ = {isa = PBXBuildFile; fileRef = A666CFAD05A3686E70215272FD6B549A /* LPOpenURLKinds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B273BB1774B820033797BAFE2E8673E7 /* LPFileAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = F28E092361C9B72D82A092F5C094B1B0 /* LPFileAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2E4DB3D01095C34C28A76FE1DBBE374 /* LPFluffyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A87366962A98367FF68FA9EF87C008A /* LPFluffyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B309118A3E20002A20EA8C3BF40F9AD4 /* LPActionDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E510D23F726737B7283484F575B0435 /* LPActionDefinition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B45125B261719372340B7AE4FEBD66D5 /* LPFine2PNG.h in Headers */ = {isa = PBXBuildFile; fileRef = 5513FF19564667B8B26A31D31FAD645A /* LPFine2PNG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4A0BA137CF1119C263B639D68FB18FE /* LPIndecentChild.h in Headers */ = {isa = PBXBuildFile; fileRef = D646F2E9F7A680E72FF99B03D18B129E /* LPIndecentChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4F9B78807A818F117BDB7D6F6C85B24 /* LPTentacledChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 89A1137B538E29180303A4965622466A /* LPTentacledChild.m */; };
+		B592C3E3EDF23801B632B63159437D69 /* LPAlertValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D45351CB97FCE6F147DE81FB171417B /* LPAlertValues.m */; };
+		B60BA907C93685538F31DEBF03F1DFC9 /* LPConfirmKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A535C31320FA30BF603CD34354A99F7 /* LPConfirmKinds.m */; };
+		B6E09EFB33EF983B3493FBEA36987D04 /* LPFluffyMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = FF6A67932DB0684D60B5A0F811A04404 /* LPFluffyMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7D40081591388C9A060F7A42D35C580 /* LPPurpleFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CFD2A1472E8FF791AB432EAC417EE08 /* LPPurpleFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2FB640718B2678D98ADDB01BC27030 /* Pods-Symphony-iOS-Sample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3AC8F2035C2DD8C39C0835011E47BE2 /* Pods-Symphony-iOS-Sample-dummy.m */; };
+		BEC31877F3836ECE1B2D7835F77B994F /* LPFluffyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF45D447D74476FDA7C258570836484 /* LPFluffyLayout.m */; };
+		C1DC5467A8F6E35AEA4BB333EEFEAD17 /* LPFluffyAcceptAction.h in Headers */ = {isa = PBXBuildFile; fileRef = CB460B62630A23B2F2CE7F4C8524E621 /* LPFluffyAcceptAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2A251D7773D66D85551BC661C24A9BE /* LPTentacledTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A80C7BFEDA91B3430BB4E2EB993FC14 /* LPTentacledTitle.m */; };
+		C3895D123DE063F226F701D0B25D8B01 /* LPCenterPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 5321B330CBD7FDD9802D57C596EB8504 /* LPCenterPopup.m */; };
+		C58540F5BA04115B075ECEE7953ECBF1 /* LPFine2PNGClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BA5800942C35B09E218B0FAD5E099E /* LPFine2PNGClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA4140AE84E9D7425D34A9A416B76736 /* LPWebInterstitialKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4AE3FC7CDF9F099172668774D2B5C5 /* LPWebInterstitialKinds.m */; };
+		CB46AD3D60BA335C5B99F7445C803629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E06905464D7CCAFDE25B274B1D2DD /* Foundation.framework */; };
+		CD40B5A047A8DEC8C0D798D26B8461EA /* LPFluffyCancelAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B360D790F89685A2906F87127996BA3 /* LPFluffyCancelAction.m */; };
+		CD6A6CA3ABAEE97B0B922B10ECF73CFE /* LPStickyChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A8D6418FF79BCE7C7C922C2DE8B9FA /* LPStickyChild.m */; };
+		CDE3B7B1A2C97882F58A9C2420C5DDF6 /* Pods-Symphony-iOS-SampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9710F32E0B6CB54201EA4A84CD0430A0 /* Pods-Symphony-iOS-SampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0666FF6A586A78D30D8A0CBD830A750 /* LPFriskyChild.m in Sources */ = {isa = PBXBuildFile; fileRef = 1884415FFC472EE051B99B6DCF74538D /* LPFriskyChild.m */; };
+		D28E33174E09CE39F58E8001F9F978F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E7F0308757C76A7D20A2A380957BC0F /* UIKit.framework */; };
+		D4FB12A7AAFC4114B7E4BA18FACCA114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C5E06905464D7CCAFDE25B274B1D2DD /* Foundation.framework */; };
+		DC104110AA4EACF68F8CDFEB838D7272 /* LPIndigoChild.m in Sources */ = {isa = PBXBuildFile; fileRef = C93079D76D46C1BA8F17F7676737297A /* LPIndigoChild.m */; };
+		DCA9A57EEAAA316F0D385AE78F2F818E /* LPCencelButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 12F69A459D73ADBC1E02670B27668E2F /* LPCencelButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD15C2C7C6B63935D911D48BB17D3C44 /* LPPurpleMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8516BD5C64854DA87EA30DBE094C34 /* LPPurpleMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE24242897DC3E3E13FC2548F3CC504C /* LPActionDefinition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4561E6A6BC6EDB903F4DA257ED0BCEC0 /* LPActionDefinition.m */; };
+		E0FB2834F40676129BDEFC4B112FD2AF /* LPInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = B8918DCE8CB09DB2092D50AEAF51C411 /* LPInterstitial.m */; };
+		E4CD968E9F6D809AF582D360068ABF9A /* Leanplum-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8537D9845B8D8EC1BD6FE7D0BC870F1 /* Leanplum-dummy.m */; };
+		E5AB3BBCFFFDFFC87FBA8EE9D718A2B3 /* LPPurpleLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 27FBC8E6836180D66E28552109142353 /* LPPurpleLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E68F75B6E9296438CB7E7EB23DC1D7CA /* LPTentacledMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 936A52E312AD1E11DFDD47021698C51E /* LPTentacledMessage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6D116C4A0646BFA77D9C9DB08F64AD9 /* LPVariant.m in Sources */ = {isa = PBXBuildFile; fileRef = 13E582525D7A1F93BB7758B8537998CC /* LPVariant.m */; };
+		E7F325E9EBBE5D245BF83870F8637D3B /* LPFluffyDismissAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 161C88CE21BE0DC0736201CE48F76A98 /* LPFluffyDismissAction.m */; };
+		EC1ACBA26A74EF9005CFB3F76394965D /* LPCencelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F2348A4238714304622423DA0864C5 /* LPCencelButton.m */; };
+		EC9B28AF456D2C13B72094E0E722CB08 /* LPAlertKinds.m in Sources */ = {isa = PBXBuildFile; fileRef = 81B84013C43148250A24D51FB53416DC /* LPAlertKinds.m */; };
+		F215B29A16AEE2B6E6EAE220269404C0 /* LPPushAskToAsk.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A85E90969DD13272F1B7AE408C6985E /* LPPushAskToAsk.m */; };
+		F25495FE8EE8C7F70BE38C828AD0EFC9 /* Pods-Symphony-iOS-Sample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3CE81B8BE8A02AE014A3AE77C867FD /* Pods-Symphony-iOS-Sample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6B412FBDBEE5EC3FC7CD51016C3DE20 /* LPIndigoChild.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F899AAE8FCC96AFFF7ADDB20280D5F /* LPIndigoChild.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6E477737FDD2E81A0FE8962CF27199A /* LPPurpleFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA5EA156C21B2A03DC39E03292D815B /* LPPurpleFont.m */; };
+		F8244EBB977B0F74C1CB622545E94741 /* LPPurpleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C3D25F81B5DC273BEE681654F570A /* LPPurpleLayout.m */; };
+		F99DDF6C1511955B75F6743383561B6C /* LPPurpleCancelAction.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7AC4276342A76D645E82F3BDEA8CA /* LPPurpleCancelAction.m */; };
+		FB43A2D7859FBAF01DE9C6C06F570916 /* LPIndigoTitle.h in Headers */ = {isa = PBXBuildFile; fileRef = 527BD2239F6F16349C1B3C8479B50BF7 /* LPIndigoTitle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB84541A5A8E5AF04C3601DC7AD34D24 /* LPNone.h in Headers */ = {isa = PBXBuildFile; fileRef = 08992D19FF7E76E19127D6A07262FFC4 /* LPNone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC46D7E52A36C26EC07CB2D8A35AE156 /* LPValuesDismissAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86BDD406DDE160475411C7C423EB54 /* LPValuesDismissAction.m */; };
+		FD4EC1EA16F738CCAF2DB3DC199DD1BF /* LPPurpleAcceptAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A7A4D845C635CB2FBBFA47C49780B73 /* LPPurpleAcceptAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FDD108EB59557FE354BBF25906F0CA86 /* LPIndigoTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 011EB730C2CE3BF691912108C15F254E /* LPIndigoTitle.m */; };
+		FE1037D52211F855E3834B8DF970A2CE /* LPPurpleChild.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B9276EAB1776684BB66C8408E1C5FC /* LPPurpleChild.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7B206CEED2211BA9BF77A9F608CBBA4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D7E791C19DE63A9EA80F50C02C2008D;
+			remoteInfo = Leanplum;
+		};
 		DC0CFE5DF2B3B769AA14F6D371487A6F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5826CF52A836ED3153686909A257E1B3;
+			remoteGlobalIDString = C191722D9E3BE5E99043B640E8D21906;
 			remoteInfo = "Pods-Symphony-iOS-Sample";
 		};
 		FE5FFAEE6463C1FFBD7C43737A695E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5826CF52A836ED3153686909A257E1B3;
+			remoteGlobalIDString = C191722D9E3BE5E99043B640E8D21906;
 			remoteInfo = "Pods-Symphony-iOS-Sample";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		128E7D603E2E48D524909DCCDBFB9557 /* Pods_Symphony_iOS_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Symphony_iOS_SampleTests.framework; path = "Pods-Symphony-iOS-SampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		14E939177038C7411423278E713B3D08 /* Pods-Symphony-iOS-SampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Symphony-iOS-SampleUITests-umbrella.h"; sourceTree = "<group>"; };
-		1A7137E51F1AC87366E27E7CBF7BD3C6 /* Pods-Symphony-iOS-SampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C3529F04DBDE426909F2286A98D67D1 /* Pods-Symphony-iOS-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Symphony-iOS-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		384FC4E52276593B96B1B2405BD70053 /* Pods-Symphony-iOS-SampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Symphony-iOS-SampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5CC633CAEA83227C248E7B04F1291880 /* Pods-Symphony-iOS-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Symphony-iOS-Sample-umbrella.h"; sourceTree = "<group>"; };
-		5E62662C877726B066E4B7602C0ABC42 /* Pods-Symphony-iOS-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		6D81BCD11C6D008BB3707FABE845189C /* Pods_Symphony_iOS_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Symphony_iOS_SampleUITests.framework; path = "Pods-Symphony-iOS-SampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74A3DA0580D02345C74616598923B722 /* Pods-Symphony-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
-		82B6F92EA9ED9E9517AF5D4D4B760811 /* Pods-Symphony-iOS-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Symphony-iOS-Sample-dummy.m"; sourceTree = "<group>"; };
-		88A6E461E87DEF3E83DAE4A760B74533 /* Pods-Symphony-iOS-SampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleTests-Info.plist"; sourceTree = "<group>"; };
-		8CEDC62F3A426284FEA5A201B4F47AC8 /* Pods-Symphony-iOS-SampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Symphony-iOS-SampleUITests-dummy.m"; sourceTree = "<group>"; };
-		8F5EFD40236493EDCA0777AFD6800988 /* Pods-Symphony-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
-		9751F2C4FB0E3F0241ECC3723865C209 /* Pods-Symphony-iOS-SampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleUITests-Info.plist"; sourceTree = "<group>"; };
-		9C244F50FCCB503CE7C0701E6D059039 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A940D924649BDE1AC3A792872282ACAC /* Pods_Symphony_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Symphony_iOS_Sample.framework; path = "Pods-Symphony-iOS-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		011EB730C2CE3BF691912108C15F254E /* LPIndigoTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPIndigoTitle.m; path = Leanplum/Classes/LPIndigoTitle.m; sourceTree = "<group>"; };
+		01A08D06397E63F4E9701EB5591B822B /* LPConfirmValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPConfirmValues.m; path = Leanplum/Classes/LPConfirmValues.m; sourceTree = "<group>"; };
+		058317A34458109D2BEC34BB5A44842B /* LPCenterPopupValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCenterPopupValues.h; path = Leanplum/Classes/LPCenterPopupValues.h; sourceTree = "<group>"; };
+		060689BB12A15AB5B9D93030A43A456D /* LPInterstitialValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPInterstitialValues.h; path = Leanplum/Classes/LPInterstitialValues.h; sourceTree = "<group>"; };
+		0858532F2668FF69F21FA4DC099C8F01 /* LPVariant.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVariant.h; path = Leanplum/Classes/LPVariant.h; sourceTree = "<group>"; };
+		08992D19FF7E76E19127D6A07262FFC4 /* LPNone.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPNone.h; path = Leanplum/Classes/LPNone.h; sourceTree = "<group>"; };
+		08AB00DB7449DCA0F65B550C3B97D03C /* LPNoneClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPNoneClass.h; path = Leanplum/Classes/LPNoneClass.h; sourceTree = "<group>"; };
+		0A87366962A98367FF68FA9EF87C008A /* LPFluffyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyLayout.h; path = Leanplum/Classes/LPFluffyLayout.h; sourceTree = "<group>"; };
+		0B010F034095BB63F24FC0BB1701B3B7 /* LPNone.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPNone.m; path = Leanplum/Classes/LPNone.m; sourceTree = "<group>"; };
+		0B5D523C8522115002498F50654FE2CF /* LPMischievousChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPMischievousChild.h; path = Leanplum/Classes/LPMischievousChild.h; sourceTree = "<group>"; };
+		12F69A459D73ADBC1E02670B27668E2F /* LPCencelButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCencelButton.h; path = Leanplum/Classes/LPCencelButton.h; sourceTree = "<group>"; };
+		13953303DA65C5901C149AAC85E31052 /* LPPurpleDismissAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleDismissAction.h; path = Leanplum/Classes/LPPurpleDismissAction.h; sourceTree = "<group>"; };
+		13E582525D7A1F93BB7758B8537998CC /* LPVariant.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPVariant.m; path = Leanplum/Classes/LPVariant.m; sourceTree = "<group>"; };
+		1461890089F0D7429B26ADAB32D5279C /* LPDownloadJPEGClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPDownloadJPEGClass.h; path = Leanplum/Classes/LPDownloadJPEGClass.h; sourceTree = "<group>"; };
+		151F344A9C59E799202AA79BD6149646 /* LPMischievousChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPMischievousChild.m; path = Leanplum/Classes/LPMischievousChild.m; sourceTree = "<group>"; };
+		154976CFF1240EDE0E66F488E400D4BE /* LPMagentaChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPMagentaChild.h; path = Leanplum/Classes/LPMagentaChild.h; sourceTree = "<group>"; };
+		1574B7CDDC09C8212C2C1362F3BAFC68 /* LPWebInterstitialValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPWebInterstitialValues.m; path = Leanplum/Classes/LPWebInterstitialValues.m; sourceTree = "<group>"; };
+		161C88CE21BE0DC0736201CE48F76A98 /* LPFluffyDismissAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyDismissAction.m; path = Leanplum/Classes/LPFluffyDismissAction.m; sourceTree = "<group>"; };
+		1884415FFC472EE051B99B6DCF74538D /* LPFriskyChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFriskyChild.m; path = Leanplum/Classes/LPFriskyChild.m; sourceTree = "<group>"; };
+		1908C5B6FC4CB7371FDDB1C247C6191B /* LPFluffyDismissAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyDismissAction.h; path = Leanplum/Classes/LPFluffyDismissAction.h; sourceTree = "<group>"; };
+		1D45351CB97FCE6F147DE81FB171417B /* LPAlertValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPAlertValues.m; path = Leanplum/Classes/LPAlertValues.m; sourceTree = "<group>"; };
+		1F97F039398921DCDA1C17BD371F5D57 /* LPStartResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPStartResponse.m; path = Leanplum/Classes/LPStartResponse.m; sourceTree = "<group>"; };
+		207B4FC8D08516D53E45B2C9F7EB788C /* Leanplum-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Leanplum-umbrella.h"; sourceTree = "<group>"; };
+		23D3BC58219C925ECB09214CC15E7189 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		23D82E9909FAA745617B995EBB3251A8 /* LPTentacledTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPTentacledTitle.h; path = Leanplum/Classes/LPTentacledTitle.h; sourceTree = "<group>"; };
+		2481A14CD77DE8BE89B54EA09C2F0C6A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		27C1B672B31465FFA073C12FFC7445C9 /* LPResponseVars.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPResponseVars.m; path = Leanplum/Classes/LPResponseVars.m; sourceTree = "<group>"; };
+		27FBC8E6836180D66E28552109142353 /* LPPurpleLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleLayout.h; path = Leanplum/Classes/LPPurpleLayout.h; sourceTree = "<group>"; };
+		28FEECBB98283A5555F2EAC735CCF84C /* LPStickyChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPStickyChild.h; path = Leanplum/Classes/LPStickyChild.h; sourceTree = "<group>"; };
+		29A3F97D53B1C2FD504DF0ED20A0B869 /* Pods-Symphony-iOS-SampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Symphony-iOS-SampleUITests-dummy.m"; sourceTree = "<group>"; };
+		29B9BC5AAE072402831AEBE23FCB0ECF /* Leanplum.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Leanplum.modulemap; sourceTree = "<group>"; };
+		2CA5EA156C21B2A03DC39E03292D815B /* LPPurpleFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleFont.m; path = Leanplum/Classes/LPPurpleFont.m; sourceTree = "<group>"; };
+		2CA6D46041E68D745DC9A01CC07CFB4D /* LPCenterPopupValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPCenterPopupValues.m; path = Leanplum/Classes/LPCenterPopupValues.m; sourceTree = "<group>"; };
+		2CFD2A1472E8FF791AB432EAC417EE08 /* LPPurpleFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleFont.h; path = Leanplum/Classes/LPPurpleFont.h; sourceTree = "<group>"; };
+		2D0BE246E79FDBEC94538B3FA6C6CDE9 /* LPRegion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPRegion.m; path = Leanplum/Classes/LPRegion.m; sourceTree = "<group>"; };
+		2DCAAA57EC5AE6CD3BA38ED9EB03D485 /* Leanplum-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Leanplum-prefix.pch"; sourceTree = "<group>"; };
+		2F3D96F5C2F4E89D94CF83ABED4C5943 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		314F514EF62BDA82A2031278744AC61E /* LPAmbitiousChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPAmbitiousChild.h; path = Leanplum/Classes/LPAmbitiousChild.h; sourceTree = "<group>"; };
+		316547748B190964386631720797AD61 /* LPConfirm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPConfirm.h; path = Leanplum/Classes/LPConfirm.h; sourceTree = "<group>"; };
+		3349B4A5EA4C95610E31B69DF13DE1A1 /* Pods-Symphony-iOS-SampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Symphony-iOS-SampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		338E9F3149445E91DA954AD9D31A50EE /* Pods-Symphony-iOS-SampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Symphony-iOS-SampleTests-dummy.m"; sourceTree = "<group>"; };
+		3589947D0221BACAA37232591EC915B6 /* LPFluffyMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyMessage.m; path = Leanplum/Classes/LPFluffyMessage.m; sourceTree = "<group>"; };
+		368ACA1AFE14CAC5D9AA9C8D7BC26DC7 /* LPConfirm.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPConfirm.m; path = Leanplum/Classes/LPConfirm.m; sourceTree = "<group>"; };
+		368D61E9E3751611E379B3141EF524E4 /* LPDownloadJPEGClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPDownloadJPEGClass.m; path = Leanplum/Classes/LPDownloadJPEGClass.m; sourceTree = "<group>"; };
+		37746B659BD502B90CF99B79CD1879BF /* LPFine2PNG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFine2PNG.m; path = Leanplum/Classes/LPFine2PNG.m; sourceTree = "<group>"; };
+		38F306F00EE0C67A59421BD53D4A5367 /* LPPurpleAcceptAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleAcceptAction.m; path = Leanplum/Classes/LPPurpleAcceptAction.m; sourceTree = "<group>"; };
+		3A31CC6B4DACEE20B9BB18E640CC765F /* LPFluffyCancelAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyCancelAction.h; path = Leanplum/Classes/LPFluffyCancelAction.h; sourceTree = "<group>"; };
+		3C401442038AA80FC416D3A32ABC74D7 /* LPInterstitialKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPInterstitialKinds.h; path = Leanplum/Classes/LPInterstitialKinds.h; sourceTree = "<group>"; };
+		3D4AE3FC7CDF9F099172668774D2B5C5 /* LPWebInterstitialKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPWebInterstitialKinds.m; path = Leanplum/Classes/LPWebInterstitialKinds.m; sourceTree = "<group>"; };
+		4171A455ED0CCF1653F15A80A44B4F87 /* Pods-Symphony-iOS-SampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Symphony-iOS-SampleUITests.modulemap"; sourceTree = "<group>"; };
+		42DD50976948823B4D8CAC8C967BCE56 /* LPTentacledAcceptButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPTentacledAcceptButton.m; path = Leanplum/Classes/LPTentacledAcceptButton.m; sourceTree = "<group>"; };
+		4561E6A6BC6EDB903F4DA257ED0BCEC0 /* LPActionDefinition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPActionDefinition.m; path = Leanplum/Classes/LPActionDefinition.m; sourceTree = "<group>"; };
+		4629B2FA67BD4EB403D54200A0BEE94B /* LPRegisterForPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRegisterForPush.h; path = Leanplum/Classes/LPRegisterForPush.h; sourceTree = "<group>"; };
+		4A80C7BFEDA91B3430BB4E2EB993FC14 /* LPTentacledTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPTentacledTitle.m; path = Leanplum/Classes/LPTentacledTitle.m; sourceTree = "<group>"; };
+		4E7F0308757C76A7D20A2A380957BC0F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		517DBE81A2FE5B588BF8C175EA53C720 /* LPFluffyAcceptAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyAcceptAction.m; path = Leanplum/Classes/LPFluffyAcceptAction.m; sourceTree = "<group>"; };
+		526A9237724A24FBB54EDC464E9AE65C /* LPStickyMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPStickyMessage.m; path = Leanplum/Classes/LPStickyMessage.m; sourceTree = "<group>"; };
+		527BD2239F6F16349C1B3C8479B50BF7 /* LPIndigoTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPIndigoTitle.h; path = Leanplum/Classes/LPIndigoTitle.h; sourceTree = "<group>"; };
+		52DE034C8A1285604BE95744A181C2B9 /* Leanplum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Leanplum.framework; path = Leanplum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5321B330CBD7FDD9802D57C596EB8504 /* LPCenterPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPCenterPopup.m; path = Leanplum/Classes/LPCenterPopup.m; sourceTree = "<group>"; };
+		536D1E629F609354117B190DC64B86C2 /* Pods-Symphony-iOS-Sample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-Sample-Info.plist"; sourceTree = "<group>"; };
+		5513FF19564667B8B26A31D31FAD645A /* LPFine2PNG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFine2PNG.h; path = Leanplum/Classes/LPFine2PNG.h; sourceTree = "<group>"; };
+		55E4D5622722F880E7D53DB59EBB1360 /* LPFlufflyAcceptButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFlufflyAcceptButton.h; path = Leanplum/Classes/LPFlufflyAcceptButton.h; sourceTree = "<group>"; };
+		569B57A5EC032D28753A96E626320287 /* LPOpenURLValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPOpenURLValues.m; path = Leanplum/Classes/LPOpenURLValues.m; sourceTree = "<group>"; };
+		57F19606F832DA8498C2BE2C2E11F1DF /* LPWebInterstitialKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebInterstitialKinds.h; path = Leanplum/Classes/LPWebInterstitialKinds.h; sourceTree = "<group>"; };
+		5BCF6A5EDF9E725C60DE8B8CCBE65FF5 /* LPIndecentChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPIndecentChild.m; path = Leanplum/Classes/LPIndecentChild.m; sourceTree = "<group>"; };
+		5BD678BB8E76F717B3AC7D579D20C7DD /* LPFriskyChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFriskyChild.h; path = Leanplum/Classes/LPFriskyChild.h; sourceTree = "<group>"; };
+		5C5E06905464D7CCAFDE25B274B1D2DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5DCF7A8877996BD777E178148AEF8F59 /* LPStickyTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPStickyTitle.m; path = Leanplum/Classes/LPStickyTitle.m; sourceTree = "<group>"; };
+		5E510D23F726737B7283484F575B0435 /* LPActionDefinition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPActionDefinition.h; path = Leanplum/Classes/LPActionDefinition.h; sourceTree = "<group>"; };
+		641611E97254460F52BA2F5543A3D9A1 /* LPAlert.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPAlert.h; path = Leanplum/Classes/LPAlert.h; sourceTree = "<group>"; };
+		65221AD2A91C8FF44109A3F12F24E6C6 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		66A8D6418FF79BCE7C7C922C2DE8B9FA /* LPStickyChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPStickyChild.m; path = Leanplum/Classes/LPStickyChild.m; sourceTree = "<group>"; };
+		67FC1233342E530466B419DB01223CCF /* LPFileAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFileAttribute.m; path = Leanplum/Classes/LPFileAttribute.m; sourceTree = "<group>"; };
+		693323632384E4BA226AF0C2C6535365 /* LPInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPInterstitial.h; path = Leanplum/Classes/LPInterstitial.h; sourceTree = "<group>"; };
+		69FAAC8F5B1E208951756EF43A1009F1 /* Pods-Symphony-iOS-SampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleUITests-Info.plist"; sourceTree = "<group>"; };
+		6A68BD0021CD6C9B6D9C77820FF91220 /* LPPurpleTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleTitle.m; path = Leanplum/Classes/LPPurpleTitle.m; sourceTree = "<group>"; };
+		6A7A4D845C635CB2FBBFA47C49780B73 /* LPPurpleAcceptAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleAcceptAction.h; path = Leanplum/Classes/LPPurpleAcceptAction.h; sourceTree = "<group>"; };
+		6A85E90969DD13272F1B7AE408C6985E /* LPPushAskToAsk.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPushAskToAsk.m; path = Leanplum/Classes/LPPushAskToAsk.m; sourceTree = "<group>"; };
+		6BCD93F560753BA429F4F1E47C5881B2 /* Pods-Symphony-iOS-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Symphony-iOS-Sample.modulemap"; sourceTree = "<group>"; };
+		6BD940C833378F43EF86043A2FB0C8EA /* LPStartResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPStartResponse.h; path = Leanplum/Classes/LPStartResponse.h; sourceTree = "<group>"; };
+		6BFDF695A60669DDA12B58862EA6C436 /* LPBraggodociousChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPBraggodociousChild.h; path = Leanplum/Classes/LPBraggodociousChild.h; sourceTree = "<group>"; };
+		704F14DBE6319FCDC6DCE051F460A548 /* Pods-Symphony-iOS-Sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-Sample.debug.xcconfig"; sourceTree = "<group>"; };
+		70BA5800942C35B09E218B0FAD5E099E /* LPFine2PNGClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFine2PNGClass.h; path = Leanplum/Classes/LPFine2PNGClass.h; sourceTree = "<group>"; };
+		714B50A34F41B0BBF551D75B3B1C6953 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		72CE220685BD2140A25AE52F01D146AD /* LPIndigoMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPIndigoMessage.m; path = Leanplum/Classes/LPIndigoMessage.m; sourceTree = "<group>"; };
+		74498839F111ACB3C74702692B08776B /* LPOpenURLKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPOpenURLKinds.m; path = Leanplum/Classes/LPOpenURLKinds.m; sourceTree = "<group>"; };
+		78F899AAE8FCC96AFFF7ADDB20280D5F /* LPIndigoChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPIndigoChild.h; path = Leanplum/Classes/LPIndigoChild.h; sourceTree = "<group>"; };
+		797822846FBF20E96D9B5D13552BBD9E /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AD124F31D3F718524855587D26889FB /* Pods-Symphony-iOS-Sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-Sample.release.xcconfig"; sourceTree = "<group>"; };
+		7B360D790F89685A2906F87127996BA3 /* LPFluffyCancelAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyCancelAction.m; path = Leanplum/Classes/LPFluffyCancelAction.m; sourceTree = "<group>"; };
+		7B84263B582F4BB6F9FBA7D58744672D /* LPPushAskToAskKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPushAskToAskKinds.m; path = Leanplum/Classes/LPPushAskToAskKinds.m; sourceTree = "<group>"; };
+		808C4690AD3A8111514B68F1817E094F /* LPMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPMessage.h; path = Leanplum/Classes/LPMessage.h; sourceTree = "<group>"; };
+		80BA4E747728C2614ECD5202CAAB446A /* LPMagentaChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPMagentaChild.m; path = Leanplum/Classes/LPMagentaChild.m; sourceTree = "<group>"; };
+		80E5F339B57A67860ADC5B125D15549F /* Pods-Symphony-iOS-SampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleTests-Info.plist"; sourceTree = "<group>"; };
+		81B84013C43148250A24D51FB53416DC /* LPAlertKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPAlertKinds.m; path = Leanplum/Classes/LPAlertKinds.m; sourceTree = "<group>"; };
+		829BCE64A3678ACFE2386AB5CDA9B9AF /* LPPurpleAcceptButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleAcceptButton.m; path = Leanplum/Classes/LPPurpleAcceptButton.m; sourceTree = "<group>"; };
+		82DF6B1C6F72DA7488F9160131614084 /* LPConfirmKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPConfirmKinds.h; path = Leanplum/Classes/LPConfirmKinds.h; sourceTree = "<group>"; };
+		84F7A8F644D65404F71BE2E96CF76C80 /* LPWebInterstitialValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebInterstitialValues.h; path = Leanplum/Classes/LPWebInterstitialValues.h; sourceTree = "<group>"; };
+		86A827CDCFA6BE7E0D36E51B45DCE77C /* Leanplum.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Leanplum.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		89223646716238D9E52231E58B048739 /* LPTentacledAcceptButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPTentacledAcceptButton.h; path = Leanplum/Classes/LPTentacledAcceptButton.h; sourceTree = "<group>"; };
+		892ADD1A5B9C5ED7DB0323E57FC55ED5 /* Pods-Symphony-iOS-Sample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Symphony-iOS-Sample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89A1137B538E29180303A4965622466A /* LPTentacledChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPTentacledChild.m; path = Leanplum/Classes/LPTentacledChild.m; sourceTree = "<group>"; };
+		8A8516BD5C64854DA87EA30DBE094C34 /* LPPurpleMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleMessage.h; path = Leanplum/Classes/LPPurpleMessage.h; sourceTree = "<group>"; };
+		8A86BDD406DDE160475411C7C423EB54 /* LPValuesDismissAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPValuesDismissAction.m; path = Leanplum/Classes/LPValuesDismissAction.m; sourceTree = "<group>"; };
+		8E6C3D25F81B5DC273BEE681654F570A /* LPPurpleLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleLayout.m; path = Leanplum/Classes/LPPurpleLayout.m; sourceTree = "<group>"; };
+		8EDD73C6B85183A18EF3D1B39F62CFB4 /* LPPushAskToAskValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPushAskToAskValues.m; path = Leanplum/Classes/LPPushAskToAskValues.m; sourceTree = "<group>"; };
+		923ACA7C59548C12B71499EAC546CFA6 /* LPCunningChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPCunningChild.m; path = Leanplum/Classes/LPCunningChild.m; sourceTree = "<group>"; };
+		936A52E312AD1E11DFDD47021698C51E /* LPTentacledMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPTentacledMessage.h; path = Leanplum/Classes/LPTentacledMessage.h; sourceTree = "<group>"; };
+		95A6DF9E65671198FA58DCED94301F89 /* LPVarsAcceptButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPVarsAcceptButton.h; path = Leanplum/Classes/LPVarsAcceptButton.h; sourceTree = "<group>"; };
+		9710F32E0B6CB54201EA4A84CD0430A0 /* Pods-Symphony-iOS-SampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Symphony-iOS-SampleTests-umbrella.h"; sourceTree = "<group>"; };
+		9798B452A2A3BAA8F43768B4F62B951F /* LPFluffyTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyTitle.h; path = Leanplum/Classes/LPFluffyTitle.h; sourceTree = "<group>"; };
+		984C6338924CAF35C7DF19526D96A720 /* Pods-Symphony-iOS-SampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Symphony-iOS-SampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A535C31320FA30BF603CD34354A99F7 /* LPConfirmKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPConfirmKinds.m; path = Leanplum/Classes/LPConfirmKinds.m; sourceTree = "<group>"; };
+		9BAECC290BAAA89B09C305539ECB7DEA /* LPPushAskToAsk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPushAskToAsk.h; path = Leanplum/Classes/LPPushAskToAsk.h; sourceTree = "<group>"; };
+		9CDEC4CCEB55A5A50A4CF7D9DAEDF2EE /* LPPurpleAcceptButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleAcceptButton.h; path = Leanplum/Classes/LPPurpleAcceptButton.h; sourceTree = "<group>"; };
+		9EC0124F1AF6E685F834ADCDC451F9E8 /* LPPurpleChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleChild.h; path = Leanplum/Classes/LPPurpleChild.h; sourceTree = "<group>"; };
+		A0B9276EAB1776684BB66C8408E1C5FC /* LPPurpleChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleChild.m; path = Leanplum/Classes/LPPurpleChild.m; sourceTree = "<group>"; };
+		A12B8DCE96950D0F013013EE384B2B3C /* LPFine2PNGClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFine2PNGClass.m; path = Leanplum/Classes/LPFine2PNGClass.m; sourceTree = "<group>"; };
+		A1AD059F5481B5141117CE4DFBEFC92E /* Pods_Symphony_iOS_Sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Symphony_iOS_Sample.framework; path = "Pods-Symphony-iOS-Sample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2C0A624E8B4EA590AF985799BDE5385 /* Pods-Symphony-iOS-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2F00BDB78C5D6D8974B2F4AA5A9CF5E /* LPCunningChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCunningChild.h; path = Leanplum/Classes/LPCunningChild.h; sourceTree = "<group>"; };
+		A371EB859FED3D504C23036ECDEBEEDD /* LPPurpleTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleTitle.h; path = Leanplum/Classes/LPPurpleTitle.h; sourceTree = "<group>"; };
+		A45CD296EBC754077F24C341C22618D3 /* LPResponseVars.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPResponseVars.h; path = Leanplum/Classes/LPResponseVars.h; sourceTree = "<group>"; };
+		A5F1797AB9C1C8F8E6B411FCC3F3FEB5 /* Pods_Symphony_iOS_SampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Symphony_iOS_SampleUITests.framework; path = "Pods-Symphony-iOS-SampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65B3063840E7C53DB3C77219DC34F6D /* LPRegion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPRegion.h; path = Leanplum/Classes/LPRegion.h; sourceTree = "<group>"; };
+		A666CFAD05A3686E70215272FD6B549A /* LPOpenURLKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPOpenURLKinds.h; path = Leanplum/Classes/LPOpenURLKinds.h; sourceTree = "<group>"; };
+		A6DF86B8CB8771653513E0ED75C2445E /* LPNoneClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPNoneClass.m; path = Leanplum/Classes/LPNoneClass.m; sourceTree = "<group>"; };
+		A6F2348A4238714304622423DA0864C5 /* LPCencelButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPCencelButton.m; path = Leanplum/Classes/LPCencelButton.m; sourceTree = "<group>"; };
+		A740F539EBAC15F934819BB0BFCB92DE /* LPAlertValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPAlertValues.h; path = Leanplum/Classes/LPAlertValues.h; sourceTree = "<group>"; };
+		A7BCC5FC721F784B5C69DBC4726966B0 /* LPPushAskToAskValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPushAskToAskValues.h; path = Leanplum/Classes/LPPushAskToAskValues.h; sourceTree = "<group>"; };
+		AA3CE81B8BE8A02AE014A3AE77C867FD /* Pods-Symphony-iOS-Sample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Symphony-iOS-Sample-umbrella.h"; sourceTree = "<group>"; };
+		AAFBAD8FAE0C3B618D9D6E73F5E86121 /* LPOpenURLValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPOpenURLValues.h; path = Leanplum/Classes/LPOpenURLValues.h; sourceTree = "<group>"; };
+		AB55F0D1C547C7F4886FBD212B2C2B85 /* LPMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPMessage.m; path = Leanplum/Classes/LPMessage.m; sourceTree = "<group>"; };
+		ABFCC8B3A181E278694DF782E4F62FFB /* LPVarsAcceptButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPVarsAcceptButton.m; path = Leanplum/Classes/LPVarsAcceptButton.m; sourceTree = "<group>"; };
+		ACB7AC4276342A76D645E82F3BDEA8CA /* LPPurpleCancelAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleCancelAction.m; path = Leanplum/Classes/LPPurpleCancelAction.m; sourceTree = "<group>"; };
+		ACBED22DD4533E94F6FCD25B5E9603B5 /* LPValuesDismissAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPValuesDismissAction.h; path = Leanplum/Classes/LPValuesDismissAction.h; sourceTree = "<group>"; };
+		ADFE5B6221E182C9F2CFE770023F2825 /* Pods-Symphony-iOS-SampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0C8968C7657FF0B6132D7C1A15A0C54 /* LPFluffyChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyChild.m; path = Leanplum/Classes/LPFluffyChild.m; sourceTree = "<group>"; };
+		B22E3CC61C6D56F158CD681BE45EFE95 /* LPInterstitialValues.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPInterstitialValues.m; path = Leanplum/Classes/LPInterstitialValues.m; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B55EA8E1D64E8D8C52941574281B8908 /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC66909CAB192AE679E3311093763A3A /* Pods-Symphony-iOS-Sample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-Sample-Info.plist"; sourceTree = "<group>"; };
-		C043E8BA236B515C0642B2EFF1EA84A8 /* Pods-Symphony-iOS-SampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Symphony-iOS-SampleUITests.modulemap"; sourceTree = "<group>"; };
-		C1A0FA5B8AAC70B8DB8EB579189707D1 /* Pods-Symphony-iOS-SampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB58357BE211D873D4687925EC68066E /* Pods-Symphony-iOS-SampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Symphony-iOS-SampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CC765269758A3490578676FFBEF3CE8A /* Pods-Symphony-iOS-SampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Symphony-iOS-SampleTests-umbrella.h"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D9068B60A93824610B01699979CB7AB0 /* Pods-Symphony-iOS-Sample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-Sample-acknowledgements.plist"; sourceTree = "<group>"; };
-		DEE57977FB7D049D50445EE74430C2EC /* Pods-Symphony-iOS-SampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Symphony-iOS-SampleTests.modulemap"; sourceTree = "<group>"; };
-		E2152AD297F58D4CBA869C6A1C4A398C /* Pods-Symphony-iOS-SampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Symphony-iOS-SampleTests-dummy.m"; sourceTree = "<group>"; };
-		E34D69EB34507A0A828DF9497BC08C60 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E3FE10AAABC8BD657F70B9E2FD5452C1 /* Pods-Symphony-iOS-Sample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Symphony-iOS-Sample.modulemap"; sourceTree = "<group>"; };
+		B462D3454C26607B6D8DB3799345B714 /* LPFluffyTitle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyTitle.m; path = Leanplum/Classes/LPFluffyTitle.m; sourceTree = "<group>"; };
+		B54ED8E6B0254A87FE3DC9184DA33DE3 /* LPFlufflyAcceptButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFlufflyAcceptButton.m; path = Leanplum/Classes/LPFlufflyAcceptButton.m; sourceTree = "<group>"; };
+		B6D5DD223A9125A6ECA8869262EFF987 /* LPCenterPopupKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCenterPopupKinds.h; path = Leanplum/Classes/LPCenterPopupKinds.h; sourceTree = "<group>"; };
+		B833B39B015CE135FC1117F0DBA67689 /* Pods-Symphony-iOS-SampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Symphony-iOS-SampleTests.modulemap"; sourceTree = "<group>"; };
+		B8918DCE8CB09DB2092D50AEAF51C411 /* LPInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPInterstitial.m; path = Leanplum/Classes/LPInterstitial.m; sourceTree = "<group>"; };
+		B97064ABFCDAC2D1928243A81B749C9A /* LPWebInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPWebInterstitial.h; path = Leanplum/Classes/LPWebInterstitial.h; sourceTree = "<group>"; };
+		BAC1A5D5E3DE90552C0C741C2409CC4F /* LPAlert.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPAlert.m; path = Leanplum/Classes/LPAlert.m; sourceTree = "<group>"; };
+		BDF2CB73A98A13E22D7C6EF8EE31A5C3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		C2B969DD842097F5E2600659773CF4DD /* LPRegisterForPush.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPRegisterForPush.m; path = Leanplum/Classes/LPRegisterForPush.m; sourceTree = "<group>"; };
+		C4FD176E17E9143D1331FBE0863A101B /* Pods_Symphony_iOS_SampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Symphony_iOS_SampleTests.framework; path = "Pods-Symphony-iOS-SampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AE8C14539AF9261F048A07241F2509 /* LPFluffyChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyChild.h; path = Leanplum/Classes/LPFluffyChild.h; sourceTree = "<group>"; };
+		C93079D76D46C1BA8F17F7676737297A /* LPIndigoChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPIndigoChild.m; path = Leanplum/Classes/LPIndigoChild.m; sourceTree = "<group>"; };
+		CAA9278FAAA1A7AE7C43BD5242499410 /* LPTentacledChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPTentacledChild.h; path = Leanplum/Classes/LPTentacledChild.h; sourceTree = "<group>"; };
+		CAB612A0C3ED5447FFA868B7DB2C8F5F /* LPOpenURL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPOpenURL.h; path = Leanplum/Classes/LPOpenURL.h; sourceTree = "<group>"; };
+		CB460B62630A23B2F2CE7F4C8524E621 /* LPFluffyAcceptAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyAcceptAction.h; path = Leanplum/Classes/LPFluffyAcceptAction.h; sourceTree = "<group>"; };
+		CB4BA31E1B34D0D2ACC6DE82DACD8739 /* LPIndigoMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPIndigoMessage.h; path = Leanplum/Classes/LPIndigoMessage.h; sourceTree = "<group>"; };
+		CCF45D447D74476FDA7C258570836484 /* LPFluffyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPFluffyLayout.m; path = Leanplum/Classes/LPFluffyLayout.m; sourceTree = "<group>"; };
+		CD9A1656FF71ED6D07B51FA09D5A644D /* LPCenterPopupKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPCenterPopupKinds.m; path = Leanplum/Classes/LPCenterPopupKinds.m; sourceTree = "<group>"; };
+		CDF54158AE25109E1E612474FF132FF2 /* Leanplum.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Leanplum.xcconfig; sourceTree = "<group>"; };
+		D0FD9FAB06CB9001E822D4B2708F943B /* LPHilariousChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPHilariousChild.h; path = Leanplum/Classes/LPHilariousChild.h; sourceTree = "<group>"; };
+		D12972C2EFBA2750653A705A6835CE5A /* LPBraggodociousChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPBraggodociousChild.m; path = Leanplum/Classes/LPBraggodociousChild.m; sourceTree = "<group>"; };
+		D2563DFA4FAEAC65FDF2F11132326E82 /* LPOpenURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPOpenURL.m; path = Leanplum/Classes/LPOpenURL.m; sourceTree = "<group>"; };
+		D3C3CDE66AEAAE01EE4311AE2B79F92C /* Leanplum-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Leanplum-Info.plist"; sourceTree = "<group>"; };
+		D646F2E9F7A680E72FF99B03D18B129E /* LPIndecentChild.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPIndecentChild.h; path = Leanplum/Classes/LPIndecentChild.h; sourceTree = "<group>"; };
+		D913434742F08E27CC443294061892D7 /* LPPushAskToAskKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPushAskToAskKinds.h; path = Leanplum/Classes/LPPushAskToAskKinds.h; sourceTree = "<group>"; };
+		DD88532A39938ABCC12EA153169B6072 /* LPCenterPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPCenterPopup.h; path = Leanplum/Classes/LPCenterPopup.h; sourceTree = "<group>"; };
+		DDBC9F8C828931E2B52640C9C2887F8A /* Pods-Symphony-iOS-Sample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Symphony-iOS-Sample-frameworks.sh"; sourceTree = "<group>"; };
+		E1974B8122D79C09CE6BC1F988AFA069 /* LPHilariousChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPHilariousChild.m; path = Leanplum/Classes/LPHilariousChild.m; sourceTree = "<group>"; };
+		E3AC8F2035C2DD8C39C0835011E47BE2 /* Pods-Symphony-iOS-Sample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Symphony-iOS-Sample-dummy.m"; sourceTree = "<group>"; };
+		E48DBCA7412EB84B9A680C2AF8B30D56 /* LPTentacledMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPTentacledMessage.m; path = Leanplum/Classes/LPTentacledMessage.m; sourceTree = "<group>"; };
+		E533F24BC0732EE4F95A86E5C90F1C29 /* LPDownloadJPEG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPDownloadJPEG.h; path = Leanplum/Classes/LPDownloadJPEG.h; sourceTree = "<group>"; };
+		E8537D9845B8D8EC1BD6FE7D0BC870F1 /* Leanplum-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Leanplum-dummy.m"; sourceTree = "<group>"; };
+		E8FD2A719EB8FF8F09FE8573E0C14B27 /* LPStickyTitle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPStickyTitle.h; path = Leanplum/Classes/LPStickyTitle.h; sourceTree = "<group>"; };
+		E9E5CB61C394D8AC0A338F8F94F21D58 /* LPStickyMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPStickyMessage.h; path = Leanplum/Classes/LPStickyMessage.h; sourceTree = "<group>"; };
+		EA32613A903F14C318B615C4DEC093CD /* Pods-Symphony-iOS-SampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Symphony-iOS-SampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBD1677CEAF602FB5FE299B43B9F018B /* LPInterstitialKinds.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPInterstitialKinds.m; path = Leanplum/Classes/LPInterstitialKinds.m; sourceTree = "<group>"; };
+		EE700CF7C476E58027C4BC07348C9BBC /* LPPurpleMessage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleMessage.m; path = Leanplum/Classes/LPPurpleMessage.m; sourceTree = "<group>"; };
+		F027E646593516CBCAAE7603E92F8CF7 /* LPPurpleDismissAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPPurpleDismissAction.m; path = Leanplum/Classes/LPPurpleDismissAction.m; sourceTree = "<group>"; };
+		F2265D19F62AA6E25728138C62642675 /* LPPurpleCancelAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPPurpleCancelAction.h; path = Leanplum/Classes/LPPurpleCancelAction.h; sourceTree = "<group>"; };
+		F28E092361C9B72D82A092F5C094B1B0 /* LPFileAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFileAttribute.h; path = Leanplum/Classes/LPFileAttribute.h; sourceTree = "<group>"; };
+		F4B00B1C85811AE50B627399E43A8716 /* Pods-Symphony-iOS-SampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Symphony-iOS-SampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		F60BAD484330C1FA7449FD47900C96BC /* LPWebInterstitial.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPWebInterstitial.m; path = Leanplum/Classes/LPWebInterstitial.m; sourceTree = "<group>"; };
+		FAB6C89CC1B690D5FA990EDAC247128B /* Pods-Symphony-iOS-SampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Symphony-iOS-SampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC3FABBA7D9BAD3B0FE7AD2F150475E5 /* LPDownloadJPEG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPDownloadJPEG.m; path = Leanplum/Classes/LPDownloadJPEG.m; sourceTree = "<group>"; };
+		FC6F0125134AE1C8AB363949882582CB /* LPConfirmValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPConfirmValues.h; path = Leanplum/Classes/LPConfirmValues.h; sourceTree = "<group>"; };
+		FDDC8FAC91CFC4A8EB7CB54815ECD83D /* LPAlertKinds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPAlertKinds.h; path = Leanplum/Classes/LPAlertKinds.h; sourceTree = "<group>"; };
+		FF6A67932DB0684D60B5A0F811A04404 /* LPFluffyMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LPFluffyMessage.h; path = Leanplum/Classes/LPFluffyMessage.h; sourceTree = "<group>"; };
+		FFC24986656B7F51C97B6E28CC4FF388 /* LPAmbitiousChild.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LPAmbitiousChild.m; path = Leanplum/Classes/LPAmbitiousChild.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D9481D26D9920378652EB9EB19EFD504 /* Frameworks */ = {
+		20998BD3EB86990066688DB5410D94D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267FF5C347A54EA342C561C3B78F9CFD /* Foundation.framework in Frameworks */,
+				6C015C22837EA485ABA809E60B0E6BA4 /* CFNetwork.framework in Frameworks */,
+				D4FB12A7AAFC4114B7E4BA18FACCA114 /* Foundation.framework in Frameworks */,
+				15FFD25C16F82FDE50E52D50C2154819 /* Security.framework in Frameworks */,
+				82F705C6DB1E17955E6F1C53AD08C87D /* SystemConfiguration.framework in Frameworks */,
+				D28E33174E09CE39F58E8001F9F978F9 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3136732453D2530680A04CEC229515E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4540E72F239652BD07F435E198A053EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,103 +427,386 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2BA1F8ADAD0FB3D28E3E826F4BECE4B7 /* Products */ = {
+		076EFF4ED6144358519E9C9DC81E3269 /* Pods-Symphony-iOS-Sample */ = {
 			isa = PBXGroup;
 			children = (
-				A940D924649BDE1AC3A792872282ACAC /* Pods_Symphony_iOS_Sample.framework */,
-				128E7D603E2E48D524909DCCDBFB9557 /* Pods_Symphony_iOS_SampleTests.framework */,
-				6D81BCD11C6D008BB3707FABE845189C /* Pods_Symphony_iOS_SampleUITests.framework */,
+				6BCD93F560753BA429F4F1E47C5881B2 /* Pods-Symphony-iOS-Sample.modulemap */,
+				892ADD1A5B9C5ED7DB0323E57FC55ED5 /* Pods-Symphony-iOS-Sample-acknowledgements.markdown */,
+				A2C0A624E8B4EA590AF985799BDE5385 /* Pods-Symphony-iOS-Sample-acknowledgements.plist */,
+				E3AC8F2035C2DD8C39C0835011E47BE2 /* Pods-Symphony-iOS-Sample-dummy.m */,
+				DDBC9F8C828931E2B52640C9C2887F8A /* Pods-Symphony-iOS-Sample-frameworks.sh */,
+				536D1E629F609354117B190DC64B86C2 /* Pods-Symphony-iOS-Sample-Info.plist */,
+				AA3CE81B8BE8A02AE014A3AE77C867FD /* Pods-Symphony-iOS-Sample-umbrella.h */,
+				704F14DBE6319FCDC6DCE051F460A548 /* Pods-Symphony-iOS-Sample.debug.xcconfig */,
+				7AD124F31D3F718524855587D26889FB /* Pods-Symphony-iOS-Sample.release.xcconfig */,
+			);
+			name = "Pods-Symphony-iOS-Sample";
+			path = "Target Support Files/Pods-Symphony-iOS-Sample";
+			sourceTree = "<group>";
+		};
+		08378B0416C56B60E197BD57EA84FEF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DE034C8A1285604BE95744A181C2B9 /* Leanplum.framework */,
+				A1AD059F5481B5141117CE4DFBEFC92E /* Pods_Symphony_iOS_Sample.framework */,
+				C4FD176E17E9143D1331FBE0863A101B /* Pods_Symphony_iOS_SampleTests.framework */,
+				A5F1797AB9C1C8F8E6B411FCC3F3FEB5 /* Pods_Symphony_iOS_SampleUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
+				8309BF3FD2FB044AA2F6B74223B78067 /* iOS */,
 			);
-			name = iOS;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5951A590AF809CBBEEA9C528F30A2BF9 /* Targets Support Files */ = {
+		353AD4AF4668504CD93442D4A389B194 /* Pods-Symphony-iOS-SampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				9FDB3841EB623DA3F3A75C912A6A615E /* Pods-Symphony-iOS-Sample */,
-				63FAC3E6BD29C43E760C4722A6B166BE /* Pods-Symphony-iOS-SampleTests */,
-				CECA06C865CBE07E5ABEF965589EFACA /* Pods-Symphony-iOS-SampleUITests */,
+				4171A455ED0CCF1653F15A80A44B4F87 /* Pods-Symphony-iOS-SampleUITests.modulemap */,
+				984C6338924CAF35C7DF19526D96A720 /* Pods-Symphony-iOS-SampleUITests-acknowledgements.markdown */,
+				FAB6C89CC1B690D5FA990EDAC247128B /* Pods-Symphony-iOS-SampleUITests-acknowledgements.plist */,
+				29A3F97D53B1C2FD504DF0ED20A0B869 /* Pods-Symphony-iOS-SampleUITests-dummy.m */,
+				69FAAC8F5B1E208951756EF43A1009F1 /* Pods-Symphony-iOS-SampleUITests-Info.plist */,
+				F4B00B1C85811AE50B627399E43A8716 /* Pods-Symphony-iOS-SampleUITests-umbrella.h */,
+				797822846FBF20E96D9B5D13552BBD9E /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */,
+				23D3BC58219C925ECB09214CC15E7189 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-Symphony-iOS-SampleUITests";
+			path = "Target Support Files/Pods-Symphony-iOS-SampleUITests";
 			sourceTree = "<group>";
 		};
-		63FAC3E6BD29C43E760C4722A6B166BE /* Pods-Symphony-iOS-SampleTests */ = {
+		5A13B1204433F1FDA858A34FE41F956B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DEE57977FB7D049D50445EE74430C2EC /* Pods-Symphony-iOS-SampleTests.modulemap */,
-				384FC4E52276593B96B1B2405BD70053 /* Pods-Symphony-iOS-SampleTests-acknowledgements.markdown */,
-				1A7137E51F1AC87366E27E7CBF7BD3C6 /* Pods-Symphony-iOS-SampleTests-acknowledgements.plist */,
-				E2152AD297F58D4CBA869C6A1C4A398C /* Pods-Symphony-iOS-SampleTests-dummy.m */,
-				88A6E461E87DEF3E83DAE4A760B74533 /* Pods-Symphony-iOS-SampleTests-Info.plist */,
-				CC765269758A3490578676FFBEF3CE8A /* Pods-Symphony-iOS-SampleTests-umbrella.h */,
-				E34D69EB34507A0A828DF9497BC08C60 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */,
-				5E62662C877726B066E4B7602C0ABC42 /* Pods-Symphony-iOS-SampleTests.release.xcconfig */,
+				A06B8ECB96746E430EE2DE3FB8470D1E /* Leanplum */,
 			);
-			name = "Pods-Symphony-iOS-SampleTests";
-			path = "Target Support Files/Pods-Symphony-iOS-SampleTests";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		62DDFD9DE3F3212B9231E2CDCB47522B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				86A827CDCFA6BE7E0D36E51B45DCE77C /* Leanplum.podspec */,
+				2481A14CD77DE8BE89B54EA09C2F0C6A /* LICENSE */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2BA1F8ADAD0FB3D28E3E826F4BECE4B7 /* Products */,
-				5951A590AF809CBBEEA9C528F30A2BF9 /* Targets Support Files */,
+				5A13B1204433F1FDA858A34FE41F956B /* Development Pods */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				08378B0416C56B60E197BD57EA84FEF5 /* Products */,
+				FDEF8AF7CDB0AA086C0811985C832530 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9FDB3841EB623DA3F3A75C912A6A615E /* Pods-Symphony-iOS-Sample */ = {
+		8309BF3FD2FB044AA2F6B74223B78067 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				E3FE10AAABC8BD657F70B9E2FD5452C1 /* Pods-Symphony-iOS-Sample.modulemap */,
-				2C3529F04DBDE426909F2286A98D67D1 /* Pods-Symphony-iOS-Sample-acknowledgements.markdown */,
-				D9068B60A93824610B01699979CB7AB0 /* Pods-Symphony-iOS-Sample-acknowledgements.plist */,
-				82B6F92EA9ED9E9517AF5D4D4B760811 /* Pods-Symphony-iOS-Sample-dummy.m */,
-				BC66909CAB192AE679E3311093763A3A /* Pods-Symphony-iOS-Sample-Info.plist */,
-				5CC633CAEA83227C248E7B04F1291880 /* Pods-Symphony-iOS-Sample-umbrella.h */,
-				8F5EFD40236493EDCA0777AFD6800988 /* Pods-Symphony-iOS-Sample.debug.xcconfig */,
-				74A3DA0580D02345C74616598923B722 /* Pods-Symphony-iOS-Sample.release.xcconfig */,
+				BDF2CB73A98A13E22D7C6EF8EE31A5C3 /* CFNetwork.framework */,
+				5C5E06905464D7CCAFDE25B274B1D2DD /* Foundation.framework */,
+				2F3D96F5C2F4E89D94CF83ABED4C5943 /* Security.framework */,
+				714B50A34F41B0BBF551D75B3B1C6953 /* SystemConfiguration.framework */,
+				4E7F0308757C76A7D20A2A380957BC0F /* UIKit.framework */,
 			);
-			name = "Pods-Symphony-iOS-Sample";
-			path = "Target Support Files/Pods-Symphony-iOS-Sample";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		A06B8ECB96746E430EE2DE3FB8470D1E /* Leanplum */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				5E510D23F726737B7283484F575B0435 /* LPActionDefinition.h */,
+				4561E6A6BC6EDB903F4DA257ED0BCEC0 /* LPActionDefinition.m */,
+				641611E97254460F52BA2F5543A3D9A1 /* LPAlert.h */,
+				BAC1A5D5E3DE90552C0C741C2409CC4F /* LPAlert.m */,
+				FDDC8FAC91CFC4A8EB7CB54815ECD83D /* LPAlertKinds.h */,
+				81B84013C43148250A24D51FB53416DC /* LPAlertKinds.m */,
+				A740F539EBAC15F934819BB0BFCB92DE /* LPAlertValues.h */,
+				1D45351CB97FCE6F147DE81FB171417B /* LPAlertValues.m */,
+				314F514EF62BDA82A2031278744AC61E /* LPAmbitiousChild.h */,
+				FFC24986656B7F51C97B6E28CC4FF388 /* LPAmbitiousChild.m */,
+				6BFDF695A60669DDA12B58862EA6C436 /* LPBraggodociousChild.h */,
+				D12972C2EFBA2750653A705A6835CE5A /* LPBraggodociousChild.m */,
+				12F69A459D73ADBC1E02670B27668E2F /* LPCencelButton.h */,
+				A6F2348A4238714304622423DA0864C5 /* LPCencelButton.m */,
+				DD88532A39938ABCC12EA153169B6072 /* LPCenterPopup.h */,
+				5321B330CBD7FDD9802D57C596EB8504 /* LPCenterPopup.m */,
+				B6D5DD223A9125A6ECA8869262EFF987 /* LPCenterPopupKinds.h */,
+				CD9A1656FF71ED6D07B51FA09D5A644D /* LPCenterPopupKinds.m */,
+				058317A34458109D2BEC34BB5A44842B /* LPCenterPopupValues.h */,
+				2CA6D46041E68D745DC9A01CC07CFB4D /* LPCenterPopupValues.m */,
+				316547748B190964386631720797AD61 /* LPConfirm.h */,
+				368ACA1AFE14CAC5D9AA9C8D7BC26DC7 /* LPConfirm.m */,
+				82DF6B1C6F72DA7488F9160131614084 /* LPConfirmKinds.h */,
+				9A535C31320FA30BF603CD34354A99F7 /* LPConfirmKinds.m */,
+				FC6F0125134AE1C8AB363949882582CB /* LPConfirmValues.h */,
+				01A08D06397E63F4E9701EB5591B822B /* LPConfirmValues.m */,
+				A2F00BDB78C5D6D8974B2F4AA5A9CF5E /* LPCunningChild.h */,
+				923ACA7C59548C12B71499EAC546CFA6 /* LPCunningChild.m */,
+				E533F24BC0732EE4F95A86E5C90F1C29 /* LPDownloadJPEG.h */,
+				FC3FABBA7D9BAD3B0FE7AD2F150475E5 /* LPDownloadJPEG.m */,
+				1461890089F0D7429B26ADAB32D5279C /* LPDownloadJPEGClass.h */,
+				368D61E9E3751611E379B3141EF524E4 /* LPDownloadJPEGClass.m */,
+				F28E092361C9B72D82A092F5C094B1B0 /* LPFileAttribute.h */,
+				67FC1233342E530466B419DB01223CCF /* LPFileAttribute.m */,
+				5513FF19564667B8B26A31D31FAD645A /* LPFine2PNG.h */,
+				37746B659BD502B90CF99B79CD1879BF /* LPFine2PNG.m */,
+				70BA5800942C35B09E218B0FAD5E099E /* LPFine2PNGClass.h */,
+				A12B8DCE96950D0F013013EE384B2B3C /* LPFine2PNGClass.m */,
+				55E4D5622722F880E7D53DB59EBB1360 /* LPFlufflyAcceptButton.h */,
+				B54ED8E6B0254A87FE3DC9184DA33DE3 /* LPFlufflyAcceptButton.m */,
+				CB460B62630A23B2F2CE7F4C8524E621 /* LPFluffyAcceptAction.h */,
+				517DBE81A2FE5B588BF8C175EA53C720 /* LPFluffyAcceptAction.m */,
+				3A31CC6B4DACEE20B9BB18E640CC765F /* LPFluffyCancelAction.h */,
+				7B360D790F89685A2906F87127996BA3 /* LPFluffyCancelAction.m */,
+				C5AE8C14539AF9261F048A07241F2509 /* LPFluffyChild.h */,
+				B0C8968C7657FF0B6132D7C1A15A0C54 /* LPFluffyChild.m */,
+				1908C5B6FC4CB7371FDDB1C247C6191B /* LPFluffyDismissAction.h */,
+				161C88CE21BE0DC0736201CE48F76A98 /* LPFluffyDismissAction.m */,
+				0A87366962A98367FF68FA9EF87C008A /* LPFluffyLayout.h */,
+				CCF45D447D74476FDA7C258570836484 /* LPFluffyLayout.m */,
+				FF6A67932DB0684D60B5A0F811A04404 /* LPFluffyMessage.h */,
+				3589947D0221BACAA37232591EC915B6 /* LPFluffyMessage.m */,
+				9798B452A2A3BAA8F43768B4F62B951F /* LPFluffyTitle.h */,
+				B462D3454C26607B6D8DB3799345B714 /* LPFluffyTitle.m */,
+				5BD678BB8E76F717B3AC7D579D20C7DD /* LPFriskyChild.h */,
+				1884415FFC472EE051B99B6DCF74538D /* LPFriskyChild.m */,
+				D0FD9FAB06CB9001E822D4B2708F943B /* LPHilariousChild.h */,
+				E1974B8122D79C09CE6BC1F988AFA069 /* LPHilariousChild.m */,
+				D646F2E9F7A680E72FF99B03D18B129E /* LPIndecentChild.h */,
+				5BCF6A5EDF9E725C60DE8B8CCBE65FF5 /* LPIndecentChild.m */,
+				78F899AAE8FCC96AFFF7ADDB20280D5F /* LPIndigoChild.h */,
+				C93079D76D46C1BA8F17F7676737297A /* LPIndigoChild.m */,
+				CB4BA31E1B34D0D2ACC6DE82DACD8739 /* LPIndigoMessage.h */,
+				72CE220685BD2140A25AE52F01D146AD /* LPIndigoMessage.m */,
+				527BD2239F6F16349C1B3C8479B50BF7 /* LPIndigoTitle.h */,
+				011EB730C2CE3BF691912108C15F254E /* LPIndigoTitle.m */,
+				693323632384E4BA226AF0C2C6535365 /* LPInterstitial.h */,
+				B8918DCE8CB09DB2092D50AEAF51C411 /* LPInterstitial.m */,
+				3C401442038AA80FC416D3A32ABC74D7 /* LPInterstitialKinds.h */,
+				EBD1677CEAF602FB5FE299B43B9F018B /* LPInterstitialKinds.m */,
+				060689BB12A15AB5B9D93030A43A456D /* LPInterstitialValues.h */,
+				B22E3CC61C6D56F158CD681BE45EFE95 /* LPInterstitialValues.m */,
+				154976CFF1240EDE0E66F488E400D4BE /* LPMagentaChild.h */,
+				80BA4E747728C2614ECD5202CAAB446A /* LPMagentaChild.m */,
+				808C4690AD3A8111514B68F1817E094F /* LPMessage.h */,
+				AB55F0D1C547C7F4886FBD212B2C2B85 /* LPMessage.m */,
+				0B5D523C8522115002498F50654FE2CF /* LPMischievousChild.h */,
+				151F344A9C59E799202AA79BD6149646 /* LPMischievousChild.m */,
+				08992D19FF7E76E19127D6A07262FFC4 /* LPNone.h */,
+				0B010F034095BB63F24FC0BB1701B3B7 /* LPNone.m */,
+				08AB00DB7449DCA0F65B550C3B97D03C /* LPNoneClass.h */,
+				A6DF86B8CB8771653513E0ED75C2445E /* LPNoneClass.m */,
+				CAB612A0C3ED5447FFA868B7DB2C8F5F /* LPOpenURL.h */,
+				D2563DFA4FAEAC65FDF2F11132326E82 /* LPOpenURL.m */,
+				A666CFAD05A3686E70215272FD6B549A /* LPOpenURLKinds.h */,
+				74498839F111ACB3C74702692B08776B /* LPOpenURLKinds.m */,
+				AAFBAD8FAE0C3B618D9D6E73F5E86121 /* LPOpenURLValues.h */,
+				569B57A5EC032D28753A96E626320287 /* LPOpenURLValues.m */,
+				6A7A4D845C635CB2FBBFA47C49780B73 /* LPPurpleAcceptAction.h */,
+				38F306F00EE0C67A59421BD53D4A5367 /* LPPurpleAcceptAction.m */,
+				9CDEC4CCEB55A5A50A4CF7D9DAEDF2EE /* LPPurpleAcceptButton.h */,
+				829BCE64A3678ACFE2386AB5CDA9B9AF /* LPPurpleAcceptButton.m */,
+				F2265D19F62AA6E25728138C62642675 /* LPPurpleCancelAction.h */,
+				ACB7AC4276342A76D645E82F3BDEA8CA /* LPPurpleCancelAction.m */,
+				9EC0124F1AF6E685F834ADCDC451F9E8 /* LPPurpleChild.h */,
+				A0B9276EAB1776684BB66C8408E1C5FC /* LPPurpleChild.m */,
+				13953303DA65C5901C149AAC85E31052 /* LPPurpleDismissAction.h */,
+				F027E646593516CBCAAE7603E92F8CF7 /* LPPurpleDismissAction.m */,
+				2CFD2A1472E8FF791AB432EAC417EE08 /* LPPurpleFont.h */,
+				2CA5EA156C21B2A03DC39E03292D815B /* LPPurpleFont.m */,
+				27FBC8E6836180D66E28552109142353 /* LPPurpleLayout.h */,
+				8E6C3D25F81B5DC273BEE681654F570A /* LPPurpleLayout.m */,
+				8A8516BD5C64854DA87EA30DBE094C34 /* LPPurpleMessage.h */,
+				EE700CF7C476E58027C4BC07348C9BBC /* LPPurpleMessage.m */,
+				A371EB859FED3D504C23036ECDEBEEDD /* LPPurpleTitle.h */,
+				6A68BD0021CD6C9B6D9C77820FF91220 /* LPPurpleTitle.m */,
+				9BAECC290BAAA89B09C305539ECB7DEA /* LPPushAskToAsk.h */,
+				6A85E90969DD13272F1B7AE408C6985E /* LPPushAskToAsk.m */,
+				D913434742F08E27CC443294061892D7 /* LPPushAskToAskKinds.h */,
+				7B84263B582F4BB6F9FBA7D58744672D /* LPPushAskToAskKinds.m */,
+				A7BCC5FC721F784B5C69DBC4726966B0 /* LPPushAskToAskValues.h */,
+				8EDD73C6B85183A18EF3D1B39F62CFB4 /* LPPushAskToAskValues.m */,
+				A65B3063840E7C53DB3C77219DC34F6D /* LPRegion.h */,
+				2D0BE246E79FDBEC94538B3FA6C6CDE9 /* LPRegion.m */,
+				4629B2FA67BD4EB403D54200A0BEE94B /* LPRegisterForPush.h */,
+				C2B969DD842097F5E2600659773CF4DD /* LPRegisterForPush.m */,
+				A45CD296EBC754077F24C341C22618D3 /* LPResponseVars.h */,
+				27C1B672B31465FFA073C12FFC7445C9 /* LPResponseVars.m */,
+				6BD940C833378F43EF86043A2FB0C8EA /* LPStartResponse.h */,
+				1F97F039398921DCDA1C17BD371F5D57 /* LPStartResponse.m */,
+				28FEECBB98283A5555F2EAC735CCF84C /* LPStickyChild.h */,
+				66A8D6418FF79BCE7C7C922C2DE8B9FA /* LPStickyChild.m */,
+				E9E5CB61C394D8AC0A338F8F94F21D58 /* LPStickyMessage.h */,
+				526A9237724A24FBB54EDC464E9AE65C /* LPStickyMessage.m */,
+				E8FD2A719EB8FF8F09FE8573E0C14B27 /* LPStickyTitle.h */,
+				5DCF7A8877996BD777E178148AEF8F59 /* LPStickyTitle.m */,
+				89223646716238D9E52231E58B048739 /* LPTentacledAcceptButton.h */,
+				42DD50976948823B4D8CAC8C967BCE56 /* LPTentacledAcceptButton.m */,
+				CAA9278FAAA1A7AE7C43BD5242499410 /* LPTentacledChild.h */,
+				89A1137B538E29180303A4965622466A /* LPTentacledChild.m */,
+				936A52E312AD1E11DFDD47021698C51E /* LPTentacledMessage.h */,
+				E48DBCA7412EB84B9A680C2AF8B30D56 /* LPTentacledMessage.m */,
+				23D82E9909FAA745617B995EBB3251A8 /* LPTentacledTitle.h */,
+				4A80C7BFEDA91B3430BB4E2EB993FC14 /* LPTentacledTitle.m */,
+				ACBED22DD4533E94F6FCD25B5E9603B5 /* LPValuesDismissAction.h */,
+				8A86BDD406DDE160475411C7C423EB54 /* LPValuesDismissAction.m */,
+				0858532F2668FF69F21FA4DC099C8F01 /* LPVariant.h */,
+				13E582525D7A1F93BB7758B8537998CC /* LPVariant.m */,
+				95A6DF9E65671198FA58DCED94301F89 /* LPVarsAcceptButton.h */,
+				ABFCC8B3A181E278694DF782E4F62FFB /* LPVarsAcceptButton.m */,
+				B97064ABFCDAC2D1928243A81B749C9A /* LPWebInterstitial.h */,
+				F60BAD484330C1FA7449FD47900C96BC /* LPWebInterstitial.m */,
+				57F19606F832DA8498C2BE2C2E11F1DF /* LPWebInterstitialKinds.h */,
+				3D4AE3FC7CDF9F099172668774D2B5C5 /* LPWebInterstitialKinds.m */,
+				84F7A8F644D65404F71BE2E96CF76C80 /* LPWebInterstitialValues.h */,
+				1574B7CDDC09C8212C2C1362F3BAFC68 /* LPWebInterstitialValues.m */,
+				62DDFD9DE3F3212B9231E2CDCB47522B /* Pod */,
+				CC884BED1B5B979E9B0A81985C0D1035 /* Support Files */,
 			);
-			name = Frameworks;
+			name = Leanplum;
+			path = "../../../Symphony-iOS";
 			sourceTree = "<group>";
 		};
-		CECA06C865CBE07E5ABEF965589EFACA /* Pods-Symphony-iOS-SampleUITests */ = {
+		CC884BED1B5B979E9B0A81985C0D1035 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C043E8BA236B515C0642B2EFF1EA84A8 /* Pods-Symphony-iOS-SampleUITests.modulemap */,
-				CB58357BE211D873D4687925EC68066E /* Pods-Symphony-iOS-SampleUITests-acknowledgements.markdown */,
-				C1A0FA5B8AAC70B8DB8EB579189707D1 /* Pods-Symphony-iOS-SampleUITests-acknowledgements.plist */,
-				8CEDC62F3A426284FEA5A201B4F47AC8 /* Pods-Symphony-iOS-SampleUITests-dummy.m */,
-				9751F2C4FB0E3F0241ECC3723865C209 /* Pods-Symphony-iOS-SampleUITests-Info.plist */,
-				14E939177038C7411423278E713B3D08 /* Pods-Symphony-iOS-SampleUITests-umbrella.h */,
-				B55EA8E1D64E8D8C52941574281B8908 /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */,
-				9C244F50FCCB503CE7C0701E6D059039 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */,
+				29B9BC5AAE072402831AEBE23FCB0ECF /* Leanplum.modulemap */,
+				CDF54158AE25109E1E612474FF132FF2 /* Leanplum.xcconfig */,
+				E8537D9845B8D8EC1BD6FE7D0BC870F1 /* Leanplum-dummy.m */,
+				D3C3CDE66AEAAE01EE4311AE2B79F92C /* Leanplum-Info.plist */,
+				2DCAAA57EC5AE6CD3BA38ED9EB03D485 /* Leanplum-prefix.pch */,
+				207B4FC8D08516D53E45B2C9F7EB788C /* Leanplum-umbrella.h */,
 			);
-			name = "Pods-Symphony-iOS-SampleUITests";
-			path = "Target Support Files/Pods-Symphony-iOS-SampleUITests";
+			name = "Support Files";
+			path = "../Symphony-iOS-Sample/Symphony-iOS-Sample/Pods/Target Support Files/Leanplum";
+			sourceTree = "<group>";
+		};
+		D7E23E4F0F4AD833FB60A1784B67571E /* Pods-Symphony-iOS-SampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B833B39B015CE135FC1117F0DBA67689 /* Pods-Symphony-iOS-SampleTests.modulemap */,
+				3349B4A5EA4C95610E31B69DF13DE1A1 /* Pods-Symphony-iOS-SampleTests-acknowledgements.markdown */,
+				ADFE5B6221E182C9F2CFE770023F2825 /* Pods-Symphony-iOS-SampleTests-acknowledgements.plist */,
+				338E9F3149445E91DA954AD9D31A50EE /* Pods-Symphony-iOS-SampleTests-dummy.m */,
+				80E5F339B57A67860ADC5B125D15549F /* Pods-Symphony-iOS-SampleTests-Info.plist */,
+				9710F32E0B6CB54201EA4A84CD0430A0 /* Pods-Symphony-iOS-SampleTests-umbrella.h */,
+				65221AD2A91C8FF44109A3F12F24E6C6 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */,
+				EA32613A903F14C318B615C4DEC093CD /* Pods-Symphony-iOS-SampleTests.release.xcconfig */,
+			);
+			name = "Pods-Symphony-iOS-SampleTests";
+			path = "Target Support Files/Pods-Symphony-iOS-SampleTests";
+			sourceTree = "<group>";
+		};
+		FDEF8AF7CDB0AA086C0811985C832530 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				076EFF4ED6144358519E9C9DC81E3269 /* Pods-Symphony-iOS-Sample */,
+				D7E23E4F0F4AD833FB60A1784B67571E /* Pods-Symphony-iOS-SampleTests */,
+				353AD4AF4668504CD93442D4A389B194 /* Pods-Symphony-iOS-SampleUITests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1955020B2A900B7DEE1EB6B4F8A310E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14148D630754179D49692C68C12306FA /* Leanplum-umbrella.h in Headers */,
+				B309118A3E20002A20EA8C3BF40F9AD4 /* LPActionDefinition.h in Headers */,
+				16CACCD99D87310C61DA6EC7DF5FEF05 /* LPAlert.h in Headers */,
+				25503F4C4774DD122191D09BBF9B7F18 /* LPAlertKinds.h in Headers */,
+				9B0F6D534AE0D0F44FF94B54E6B89C41 /* LPAlertValues.h in Headers */,
+				A694A7A26B5DD7B591B22E025588C855 /* LPAmbitiousChild.h in Headers */,
+				AA3B17E513BEAC3C51C1CA97143E9A9F /* LPBraggodociousChild.h in Headers */,
+				DCA9A57EEAAA316F0D385AE78F2F818E /* LPCencelButton.h in Headers */,
+				54AAC4D5B8BEB583EE53943D1EC82B98 /* LPCenterPopup.h in Headers */,
+				283B082378526984A5317F55569F6A29 /* LPCenterPopupKinds.h in Headers */,
+				383B7EAF6984B06F0FEDAA1766429C0C /* LPCenterPopupValues.h in Headers */,
+				B1316AA0DDAA15EE1CFC62602167DF97 /* LPConfirm.h in Headers */,
+				3D1EB4DB8DEEC7240A11CCC91367A97C /* LPConfirmKinds.h in Headers */,
+				A9F712B5F975CECD5B345627562D766C /* LPConfirmValues.h in Headers */,
+				0AEF75A86D4CF221A1B97F954FA83B2D /* LPCunningChild.h in Headers */,
+				3BA6D3DA7B56CFA1B9F0D0BA063A1811 /* LPDownloadJPEG.h in Headers */,
+				78A08230A29B6B0B2904AC7FC1AC8055 /* LPDownloadJPEGClass.h in Headers */,
+				B273BB1774B820033797BAFE2E8673E7 /* LPFileAttribute.h in Headers */,
+				B45125B261719372340B7AE4FEBD66D5 /* LPFine2PNG.h in Headers */,
+				C58540F5BA04115B075ECEE7953ECBF1 /* LPFine2PNGClass.h in Headers */,
+				8BFC8F5514BBAA3B1C3324F833240195 /* LPFlufflyAcceptButton.h in Headers */,
+				C1DC5467A8F6E35AEA4BB333EEFEAD17 /* LPFluffyAcceptAction.h in Headers */,
+				2125CEC74DDFB9EBB133F7041A0279DA /* LPFluffyCancelAction.h in Headers */,
+				A96B10C3151FDBC9E2B7EC3E1E78FB64 /* LPFluffyChild.h in Headers */,
+				410E1DE76D421DE45F291E2CB75AD3C8 /* LPFluffyDismissAction.h in Headers */,
+				B2E4DB3D01095C34C28A76FE1DBBE374 /* LPFluffyLayout.h in Headers */,
+				B6E09EFB33EF983B3493FBEA36987D04 /* LPFluffyMessage.h in Headers */,
+				90320F4291EC9A53CD60836C983357DA /* LPFluffyTitle.h in Headers */,
+				2E7073228FDBC3EE708426D50E135EFA /* LPFriskyChild.h in Headers */,
+				72D78F469010F7EAC1D78934751CE447 /* LPHilariousChild.h in Headers */,
+				B4A0BA137CF1119C263B639D68FB18FE /* LPIndecentChild.h in Headers */,
+				F6B412FBDBEE5EC3FC7CD51016C3DE20 /* LPIndigoChild.h in Headers */,
+				0A28A25D9B3D5E1A23CD42558C0807E4 /* LPIndigoMessage.h in Headers */,
+				FB43A2D7859FBAF01DE9C6C06F570916 /* LPIndigoTitle.h in Headers */,
+				4B0C7F88836C8997569D16E54EC256CB /* LPInterstitial.h in Headers */,
+				4732EDFFF4A3E117C8C85C92C349B078 /* LPInterstitialKinds.h in Headers */,
+				2123A91F8D0A9757D09282F9F82EDA7F /* LPInterstitialValues.h in Headers */,
+				204D69C6D5102C3028FBBF524E1FF3A0 /* LPMagentaChild.h in Headers */,
+				12DFBCC7D2894B6A16EB45BF29B6DA9A /* LPMessage.h in Headers */,
+				71A24BF7D13BFCFF19683A842A982098 /* LPMischievousChild.h in Headers */,
+				FB84541A5A8E5AF04C3601DC7AD34D24 /* LPNone.h in Headers */,
+				657BCCAED8E10BD86524CD85424D1F1F /* LPNoneClass.h in Headers */,
+				66917FB7DB59AF74A8841172C0109B8F /* LPOpenURL.h in Headers */,
+				B15D33DE1A7BF3A257576DDE93E2B4BE /* LPOpenURLKinds.h in Headers */,
+				80BFAE9D83E69464EEF8E12D8842586A /* LPOpenURLValues.h in Headers */,
+				FD4EC1EA16F738CCAF2DB3DC199DD1BF /* LPPurpleAcceptAction.h in Headers */,
+				05AE8DB1A57DE2705598C7DA745ABE12 /* LPPurpleAcceptButton.h in Headers */,
+				8909632D9D8D9361DAEC521986BBEAC0 /* LPPurpleCancelAction.h in Headers */,
+				84A4D18DF693FC481292786F598F5997 /* LPPurpleChild.h in Headers */,
+				54674BBBEB5FCE448E5B1A9EEB3AC3AD /* LPPurpleDismissAction.h in Headers */,
+				B7D40081591388C9A060F7A42D35C580 /* LPPurpleFont.h in Headers */,
+				E5AB3BBCFFFDFFC87FBA8EE9D718A2B3 /* LPPurpleLayout.h in Headers */,
+				DD15C2C7C6B63935D911D48BB17D3C44 /* LPPurpleMessage.h in Headers */,
+				65EC9898672ACAEA87575AD52375E304 /* LPPurpleTitle.h in Headers */,
+				3E053619079F999C88A3A647B9C52ACE /* LPPushAskToAsk.h in Headers */,
+				9AB612E924EBC1C07417C8512ACCD224 /* LPPushAskToAskKinds.h in Headers */,
+				A48F28DC11D41C65F52D1A2C4764D162 /* LPPushAskToAskValues.h in Headers */,
+				9517718EEEF31F3A91E306790292AF94 /* LPRegion.h in Headers */,
+				6DA2D715B802AFE5A30003B4377FD36B /* LPRegisterForPush.h in Headers */,
+				129628282DCD7B3ED77E6E60831BED34 /* LPResponseVars.h in Headers */,
+				25A3195C0EFA7819968A8028953910D6 /* LPStartResponse.h in Headers */,
+				93825480F6C34FEC628FA09BEBBCB2E0 /* LPStickyChild.h in Headers */,
+				32C34BC27E755BE32EBFAD4695B50E5E /* LPStickyMessage.h in Headers */,
+				A801A8AF441C9F9692E65A3DA1EDC482 /* LPStickyTitle.h in Headers */,
+				59F7739853798A16C1A1384D601A193B /* LPTentacledAcceptButton.h in Headers */,
+				0AC21E55D05A96C1FD46069C6E538F12 /* LPTentacledChild.h in Headers */,
+				E68F75B6E9296438CB7E7EB23DC1D7CA /* LPTentacledMessage.h in Headers */,
+				AB0966B9D28CD308957C235C41180F62 /* LPTentacledTitle.h in Headers */,
+				159A74866BE992C3E195B4B2A4363404 /* LPValuesDismissAction.h in Headers */,
+				98F9E1583EB9CE367329C3470395C724 /* LPVariant.h in Headers */,
+				775D75566F092DF67D318B4400E29783 /* LPVarsAcceptButton.h in Headers */,
+				2A2E477F944A637648E764D3BA042585 /* LPWebInterstitial.h in Headers */,
+				A41758AFD5E609CC3F7E8C4593AD5BAB /* LPWebInterstitialKinds.h in Headers */,
+				64DC9270CBF3CBAF7D786CB708E2D31C /* LPWebInterstitialValues.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245092B75283C1B87E9E32C386C982A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25495FE8EE8C7F70BE38C828AD0EFC9 /* Pods-Symphony-iOS-Sample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4A516E02B5F90D8A1ED1F86EE21B78C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -205,14 +820,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0267B2F6744A0E19D51A39631C24D19C /* Pods-Symphony-iOS-SampleUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E1692BAAC430217FB514168CE79F5837 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D9C2AE07302D3F973AA464E6651E37EE /* Pods-Symphony-iOS-Sample-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,7 +842,25 @@
 			);
 			name = "Pods-Symphony-iOS-SampleTests";
 			productName = "Pods-Symphony-iOS-SampleTests";
-			productReference = 128E7D603E2E48D524909DCCDBFB9557 /* Pods_Symphony_iOS_SampleTests.framework */;
+			productReference = C4FD176E17E9143D1331FBE0863A101B /* Pods_Symphony_iOS_SampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1D7E791C19DE63A9EA80F50C02C2008D /* Leanplum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C13EA635CF9CC9F04CAE6B0B09BA7A5 /* Build configuration list for PBXNativeTarget "Leanplum" */;
+			buildPhases = (
+				1955020B2A900B7DEE1EB6B4F8A310E8 /* Headers */,
+				A1FEE3D94A5CC896008ABACBEEDD9FC8 /* Sources */,
+				20998BD3EB86990066688DB5410D94D3 /* Frameworks */,
+				D89B62BB85535EE7D2E7E5D03BD13CBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Leanplum;
+			productName = Leanplum;
+			productReference = 52DE034C8A1285604BE95744A181C2B9 /* Leanplum.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		51A48C76ED4C4C5BFC3EF093874760F3 /* Pods-Symphony-iOS-SampleUITests */ = {
@@ -254,25 +879,26 @@
 			);
 			name = "Pods-Symphony-iOS-SampleUITests";
 			productName = "Pods-Symphony-iOS-SampleUITests";
-			productReference = 6D81BCD11C6D008BB3707FABE845189C /* Pods_Symphony_iOS_SampleUITests.framework */;
+			productReference = A5F1797AB9C1C8F8E6B411FCC3F3FEB5 /* Pods_Symphony_iOS_SampleUITests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5826CF52A836ED3153686909A257E1B3 /* Pods-Symphony-iOS-Sample */ = {
+		C191722D9E3BE5E99043B640E8D21906 /* Pods-Symphony-iOS-Sample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B268E8B0A1C4CFF99431453FBD48DFE /* Build configuration list for PBXNativeTarget "Pods-Symphony-iOS-Sample" */;
+			buildConfigurationList = 5F5C70C91C65C60C6C3626B30EAA29A2 /* Build configuration list for PBXNativeTarget "Pods-Symphony-iOS-Sample" */;
 			buildPhases = (
-				E1692BAAC430217FB514168CE79F5837 /* Headers */,
-				CFB3D31F74F689E45A3F36DC45D37F82 /* Sources */,
-				D9481D26D9920378652EB9EB19EFD504 /* Frameworks */,
-				364A72E03DF94103142C1B2C86FEB732 /* Resources */,
+				245092B75283C1B87E9E32C386C982A9 /* Headers */,
+				06C0DF08E2CAB3304655C30059FFD212 /* Sources */,
+				3136732453D2530680A04CEC229515E9 /* Frameworks */,
+				6AA24036C295B45A7D08952638EEE83C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				19E116DBE50A12D8F4065C7278E2AF44 /* PBXTargetDependency */,
 			);
 			name = "Pods-Symphony-iOS-Sample";
 			productName = "Pods-Symphony-iOS-Sample";
-			productReference = A940D924649BDE1AC3A792872282ACAC /* Pods_Symphony_iOS_Sample.framework */;
+			productReference = A1AD059F5481B5141117CE4DFBEFC92E /* Pods_Symphony_iOS_Sample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,11 +918,12 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2BA1F8ADAD0FB3D28E3E826F4BECE4B7 /* Products */;
+			productRefGroup = 08378B0416C56B60E197BD57EA84FEF5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5826CF52A836ED3153686909A257E1B3 /* Pods-Symphony-iOS-Sample */,
+				1D7E791C19DE63A9EA80F50C02C2008D /* Leanplum */,
+				C191722D9E3BE5E99043B640E8D21906 /* Pods-Symphony-iOS-Sample */,
 				17C859ABA70CFA73C18374868E12AD32 /* Pods-Symphony-iOS-SampleTests */,
 				51A48C76ED4C4C5BFC3EF093874760F3 /* Pods-Symphony-iOS-SampleUITests */,
 			);
@@ -318,7 +945,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364A72E03DF94103142C1B2C86FEB732 /* Resources */ = {
+		6AA24036C295B45A7D08952638EEE83C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D89B62BB85535EE7D2E7E5D03BD13CBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,6 +962,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		06C0DF08E2CAB3304655C30059FFD212 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC2FB640718B2678D98ADDB01BC27030 /* Pods-Symphony-iOS-Sample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2568FA34583399A71D1287C00D7020D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -344,35 +986,114 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CFB3D31F74F689E45A3F36DC45D37F82 /* Sources */ = {
+		A1FEE3D94A5CC896008ABACBEEDD9FC8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A751C59707CE62C9489DCA34A0CEC2 /* Pods-Symphony-iOS-Sample-dummy.m in Sources */,
+				E4CD968E9F6D809AF582D360068ABF9A /* Leanplum-dummy.m in Sources */,
+				DE24242897DC3E3E13FC2548F3CC504C /* LPActionDefinition.m in Sources */,
+				3D96E6023552211262F59F63E4004523 /* LPAlert.m in Sources */,
+				EC9B28AF456D2C13B72094E0E722CB08 /* LPAlertKinds.m in Sources */,
+				B592C3E3EDF23801B632B63159437D69 /* LPAlertValues.m in Sources */,
+				7087C8371B0EFC4E9B6F648D2E6E35E3 /* LPAmbitiousChild.m in Sources */,
+				82356CC36D0AAEF37DC96E92A6E6A3B4 /* LPBraggodociousChild.m in Sources */,
+				EC1ACBA26A74EF9005CFB3F76394965D /* LPCencelButton.m in Sources */,
+				C3895D123DE063F226F701D0B25D8B01 /* LPCenterPopup.m in Sources */,
+				0FCCADFCE598BCB6100B80E9DB62BB3D /* LPCenterPopupKinds.m in Sources */,
+				6B62848E3EF05C19D433CD6B244AFED8 /* LPCenterPopupValues.m in Sources */,
+				A9E24B7A3F0C10FD00CE5ED570B442C1 /* LPConfirm.m in Sources */,
+				B60BA907C93685538F31DEBF03F1DFC9 /* LPConfirmKinds.m in Sources */,
+				23A542D552D2A1090B8AB396492CCAC3 /* LPConfirmValues.m in Sources */,
+				0B8124728798023FCE0D0F960E03B7DE /* LPCunningChild.m in Sources */,
+				64D5C3A53906C63103E209A4D2990991 /* LPDownloadJPEG.m in Sources */,
+				85FB615B683C520CA36F0420D775E38A /* LPDownloadJPEGClass.m in Sources */,
+				231A67581F3C3068375B2CCCAC005504 /* LPFileAttribute.m in Sources */,
+				33307920424EBA5F1D5917D7E91EEAD5 /* LPFine2PNG.m in Sources */,
+				18CD1F4B52359F70B26FF520DC754194 /* LPFine2PNGClass.m in Sources */,
+				A22AED8D0B6DD515CDDF83A50AE6828E /* LPFlufflyAcceptButton.m in Sources */,
+				686B3369179603330D2578AEB661105E /* LPFluffyAcceptAction.m in Sources */,
+				CD40B5A047A8DEC8C0D798D26B8461EA /* LPFluffyCancelAction.m in Sources */,
+				9AD276492D3F3B7E844B7130C668FD26 /* LPFluffyChild.m in Sources */,
+				E7F325E9EBBE5D245BF83870F8637D3B /* LPFluffyDismissAction.m in Sources */,
+				BEC31877F3836ECE1B2D7835F77B994F /* LPFluffyLayout.m in Sources */,
+				1314711AEFB3B12A8D5D46BF0C4D3144 /* LPFluffyMessage.m in Sources */,
+				7BE8B7431599CBCD2367D703C7FD5471 /* LPFluffyTitle.m in Sources */,
+				D0666FF6A586A78D30D8A0CBD830A750 /* LPFriskyChild.m in Sources */,
+				5FBF54C4C1DFCCD37E44C081A806AEC7 /* LPHilariousChild.m in Sources */,
+				552B7264F7427F13297612D1789A261D /* LPIndecentChild.m in Sources */,
+				DC104110AA4EACF68F8CDFEB838D7272 /* LPIndigoChild.m in Sources */,
+				375A4BA1657A377A99B6043B73AD3A07 /* LPIndigoMessage.m in Sources */,
+				FDD108EB59557FE354BBF25906F0CA86 /* LPIndigoTitle.m in Sources */,
+				E0FB2834F40676129BDEFC4B112FD2AF /* LPInterstitial.m in Sources */,
+				63A6C4BDC2BCA354BC0858F9E0BC7505 /* LPInterstitialKinds.m in Sources */,
+				42D8289FDF5DB7CB119EC733693B57DD /* LPInterstitialValues.m in Sources */,
+				63F1A452D6A55396861DB8F78AECD356 /* LPMagentaChild.m in Sources */,
+				5EAE5724809096E0CDB453FF51B5496F /* LPMessage.m in Sources */,
+				979A0D09EA8C832FBD937ADBAC38CCA6 /* LPMischievousChild.m in Sources */,
+				3A6A152B41255580FF02EF153A26E79A /* LPNone.m in Sources */,
+				296610B7EC753B200AF00D7D2F51EF0B /* LPNoneClass.m in Sources */,
+				1F7F63BA834E1E2713F3E9CAF34AACF0 /* LPOpenURL.m in Sources */,
+				66C18579E58FD45C63D704B3B84FD7DB /* LPOpenURLKinds.m in Sources */,
+				87D7AAF9BB69A3D88DE79AE52AECA93D /* LPOpenURLValues.m in Sources */,
+				2F8A42B8396DE48975669DF45912AFA0 /* LPPurpleAcceptAction.m in Sources */,
+				8E0437F7EEA5067C51A1BB39737E2CCF /* LPPurpleAcceptButton.m in Sources */,
+				F99DDF6C1511955B75F6743383561B6C /* LPPurpleCancelAction.m in Sources */,
+				FE1037D52211F855E3834B8DF970A2CE /* LPPurpleChild.m in Sources */,
+				61A88D6B630EC563218A0624E687E414 /* LPPurpleDismissAction.m in Sources */,
+				F6E477737FDD2E81A0FE8962CF27199A /* LPPurpleFont.m in Sources */,
+				F8244EBB977B0F74C1CB622545E94741 /* LPPurpleLayout.m in Sources */,
+				ADA20A5E36BCDC15697BDB9508BEFB67 /* LPPurpleMessage.m in Sources */,
+				33F3D398ACECE15600479CDA92073108 /* LPPurpleTitle.m in Sources */,
+				F215B29A16AEE2B6E6EAE220269404C0 /* LPPushAskToAsk.m in Sources */,
+				04F8A1ABC7988532BC5C7CF69A2F44EC /* LPPushAskToAskKinds.m in Sources */,
+				226EB3BBC5183CDB385D4112F481C120 /* LPPushAskToAskValues.m in Sources */,
+				5546DA13966FFDBE3F8C28C3E4B3B30D /* LPRegion.m in Sources */,
+				1460FF9F2BF608547651571F54FFF868 /* LPRegisterForPush.m in Sources */,
+				8E056009DAE2A7818C98C78F2323E648 /* LPResponseVars.m in Sources */,
+				9858F4AFD2A0A15867CFBF8A96F8AEE9 /* LPStartResponse.m in Sources */,
+				CD6A6CA3ABAEE97B0B922B10ECF73CFE /* LPStickyChild.m in Sources */,
+				63D1AAF28C47A17767C544226BAEB5F1 /* LPStickyMessage.m in Sources */,
+				565A1F27FFA8FE7177890AA672B6E3CA /* LPStickyTitle.m in Sources */,
+				4D18018B7A9CBF8D5E3BDDAFA50B1E32 /* LPTentacledAcceptButton.m in Sources */,
+				B4F9B78807A818F117BDB7D6F6C85B24 /* LPTentacledChild.m in Sources */,
+				20F1121C9016D3587A830A75341E7452 /* LPTentacledMessage.m in Sources */,
+				C2A251D7773D66D85551BC661C24A9BE /* LPTentacledTitle.m in Sources */,
+				FC46D7E52A36C26EC07CB2D8A35AE156 /* LPValuesDismissAction.m in Sources */,
+				E6D116C4A0646BFA77D9C9DB08F64AD9 /* LPVariant.m in Sources */,
+				A554FCCD4EA46293C2028ADA8A2EC944 /* LPVarsAcceptButton.m in Sources */,
+				A19AAB37DA3E118E6481EA2C4E117E7F /* LPWebInterstitial.m in Sources */,
+				CA4140AE84E9D7425D34A9A416B76736 /* LPWebInterstitialKinds.m in Sources */,
+				26AE174149FD2897BC22C7C1865B53BB /* LPWebInterstitialValues.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		19E116DBE50A12D8F4065C7278E2AF44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Leanplum;
+			target = 1D7E791C19DE63A9EA80F50C02C2008D /* Leanplum */;
+			targetProxy = 7B206CEED2211BA9BF77A9F608CBBA4A /* PBXContainerItemProxy */;
+		};
 		2134168A33D9DFD8CF3B1371E6BE4A07 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Symphony-iOS-Sample";
-			target = 5826CF52A836ED3153686909A257E1B3 /* Pods-Symphony-iOS-Sample */;
+			target = C191722D9E3BE5E99043B640E8D21906 /* Pods-Symphony-iOS-Sample */;
 			targetProxy = FE5FFAEE6463C1FFBD7C43737A695E85 /* PBXContainerItemProxy */;
 		};
 		5BF9F3B1B344A45B403E1FBDA86E74EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Symphony-iOS-Sample";
-			target = 5826CF52A836ED3153686909A257E1B3 /* Pods-Symphony-iOS-Sample */;
+			target = C191722D9E3BE5E99043B640E8D21906 /* Pods-Symphony-iOS-Sample */;
 			targetProxy = DC0CFE5DF2B3B769AA14F6D371487A6F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		16A1A8F0383241414ACD6645A43493DD /* Release */ = {
+		084BDBC12C6F9C9597317FB73143B801 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E62662C877726B066E4B7602C0ABC42 /* Pods-Symphony-iOS-SampleTests.release.xcconfig */;
+			baseConfigurationReference = EA32613A903F14C318B615C4DEC093CD /* Pods-Symphony-iOS-SampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -388,7 +1109,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -410,7 +1131,126 @@
 			};
 			name = Release;
 		};
-		1CA7E9E6D21E849B9F4F228D6EF05610 /* Debug */ = {
+		14FE9677A1185EA0D27D5A30601FFB9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23D3BC58219C925ECB09214CC15E7189 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3520F57A2120BE79181DC07D4D0EE598 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AD124F31D3F718524855587D26889FB /* Pods-Symphony-iOS-Sample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6305788B3970FF720244396C600EDB81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65221AD2A91C8FF44109A3F12F24E6C6 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		749A3881BF507DF1FDBA73E79D292109 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -461,7 +1301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -474,9 +1314,9 @@
 			};
 			name = Debug;
 		};
-		4196A5A22F25E3262A654DFF9C0A8F8A /* Release */ = {
+		85A7774CDE484B2ADB4B27ED35A9253C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74A3DA0580D02345C74616598923B722 /* Pods-Symphony-iOS-Sample.release.xcconfig */;
+			baseConfigurationReference = 704F14DBE6319FCDC6DCE051F460A548 /* Pods-Symphony-iOS-Sample.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -492,7 +1332,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,13 +1348,12 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		8950593D5FFBD0C822989A99F5AE92C3 /* Release */ = {
+		A1CBB4736B5B4470080F6F91A81682DE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -562,7 +1401,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -574,13 +1413,11 @@
 			};
 			name = Release;
 		};
-		9EB43450F1C4D05CA76989A4ECC3ABA5 /* Debug */ = {
+		A4F9F21CE8A09F29CFF4BA28A0AC4D30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E34D69EB34507A0A828DF9497BC08C60 /* Pods-Symphony-iOS-SampleTests.debug.xcconfig */;
+			baseConfigurationReference = CDF54158AE25109E1E612474FF132FF2 /* Leanplum.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -590,140 +1427,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Leanplum/Leanplum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Leanplum/Leanplum-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-SampleTests/Pods-Symphony-iOS-SampleTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/Leanplum/Leanplum.modulemap";
+				PRODUCT_MODULE_NAME = Leanplum;
+				PRODUCT_NAME = Leanplum;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0F815BDB4184648C937644AB691011C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8F5EFD40236493EDCA0777AFD6800988 /* Pods-Symphony-iOS-Sample.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-Sample/Pods-Symphony-iOS-Sample.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CFD1A21702A85EC8AF2DB85BEED7B636 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B55EA8E1D64E8D8C52941574281B8908 /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DA8C4DF62C0E2AD4C6C702C5A3562B37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C244F50FCCB503CE7C0701E6D059039 /* Pods-Symphony-iOS-SampleUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -731,14 +1450,89 @@
 			};
 			name = Release;
 		};
+		AA1CA06FB5BDB5B8C8B103F440E5641C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797822846FBF20E96D9B5D13552BBD9E /* Pods-Symphony-iOS-SampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Symphony-iOS-SampleUITests/Pods-Symphony-iOS-SampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B817799F5AD3D5F737DB03E0ED31722F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDF54158AE25109E1E612474FF132FF2 /* Leanplum.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Leanplum/Leanplum-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Leanplum/Leanplum-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Leanplum/Leanplum.modulemap";
+				PRODUCT_MODULE_NAME = Leanplum;
+				PRODUCT_NAME = Leanplum;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1CA7E9E6D21E849B9F4F228D6EF05610 /* Debug */,
-				8950593D5FFBD0C822989A99F5AE92C3 /* Release */,
+				749A3881BF507DF1FDBA73E79D292109 /* Debug */,
+				A1CBB4736B5B4470080F6F91A81682DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,17 +1540,26 @@
 		405E7C0CDC74212F91B97120EB814ECE /* Build configuration list for PBXNativeTarget "Pods-Symphony-iOS-SampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFD1A21702A85EC8AF2DB85BEED7B636 /* Debug */,
-				DA8C4DF62C0E2AD4C6C702C5A3562B37 /* Release */,
+				AA1CA06FB5BDB5B8C8B103F440E5641C /* Debug */,
+				14FE9677A1185EA0D27D5A30601FFB9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B268E8B0A1C4CFF99431453FBD48DFE /* Build configuration list for PBXNativeTarget "Pods-Symphony-iOS-Sample" */ = {
+		5F5C70C91C65C60C6C3626B30EAA29A2 /* Build configuration list for PBXNativeTarget "Pods-Symphony-iOS-Sample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0F815BDB4184648C937644AB691011C /* Debug */,
-				4196A5A22F25E3262A654DFF9C0A8F8A /* Release */,
+				85A7774CDE484B2ADB4B27ED35A9253C /* Debug */,
+				3520F57A2120BE79181DC07D4D0EE598 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C13EA635CF9CC9F04CAE6B0B09BA7A5 /* Build configuration list for PBXNativeTarget "Leanplum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B817799F5AD3D5F737DB03E0ED31722F /* Debug */,
+				A4F9F21CE8A09F29CFF4BA28A0AC4D30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,8 +1567,8 @@
 		E9A13F7B530E181D5B848A600CB5DED7 /* Build configuration list for PBXNativeTarget "Pods-Symphony-iOS-SampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EB43450F1C4D05CA76989A4ECC3ABA5 /* Debug */,
-				16A1A8F0383241414ACD6645A43493DD /* Release */,
+				6305788B3970FF720244396C600EDB81 /* Debug */,
+				084BDBC12C6F9C9597317FB73143B801 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
